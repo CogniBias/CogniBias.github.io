@@ -1,0 +1,3937 @@
+// Généré par build.py — ne pas modifier à la main
+window.COGNIBIAS = {
+ "processes": [
+  {
+   "id": "P1",
+   "fr": {
+    "name": "Attention et perception",
+    "scope": "Ce que l'on remarque (ou pas) et la façon dont ce qui est perçu est traité : saillance, familiarité, fluidité."
+   },
+   "en": {
+    "name": "Attention & perception",
+    "scope": "What we notice (or miss) and how what we perceive is processed: salience, familiarity, fluency."
+   }
+  },
+  {
+   "id": "P2",
+   "fr": {
+    "name": "Mémoire",
+    "scope": "Comment les souvenirs sont encodés, reconstruits, attribués à une source et datés."
+   },
+   "en": {
+    "name": "Memory",
+    "scope": "How memories are encoded, reconstructed, attributed to a source and dated."
+   }
+  },
+  {
+   "id": "P3",
+   "fr": {
+    "name": "Jugement et estimation",
+    "scope": "Estimer des fréquences, des probabilités, des durées et des quantités en situation d'incertitude."
+   },
+   "en": {
+    "name": "Judgment & estimation",
+    "scope": "Estimating frequencies, probabilities, durations and quantities under uncertainty."
+   }
+  },
+  {
+   "id": "P4",
+   "fr": {
+    "name": "Décision et préférences",
+    "scope": "Choisir entre des options : rapport au risque, au temps, à la perte, aux options par défaut."
+   },
+   "en": {
+    "name": "Decision & preferences",
+    "scope": "Choosing between options: attitudes to risk, time, loss and defaults."
+   }
+  },
+  {
+   "id": "P5",
+   "fr": {
+    "name": "Croyances et raisonnement",
+    "scope": "Former, tester et réviser ses croyances ; raisonner logiquement ; résoudre des problèmes."
+   },
+   "en": {
+    "name": "Beliefs & reasoning",
+    "scope": "Forming, testing and revising beliefs; logical reasoning; problem solving."
+   }
+  },
+  {
+   "id": "P6",
+   "fr": {
+    "name": "Cognition sociale",
+    "scope": "Percevoir et expliquer autrui ; influence du groupe et des normes."
+   },
+   "en": {
+    "name": "Social cognition",
+    "scope": "Perceiving and explaining others; the influence of groups and norms."
+   }
+  },
+  {
+   "id": "P7",
+   "fr": {
+    "name": "Soi, motivation et métacognition",
+    "scope": "Se juger soi-même, protéger son image, prévoir ses émotions, connaître les limites de son savoir."
+   },
+   "en": {
+    "name": "Self, motivation & metacognition",
+    "scope": "Judging oneself, protecting one's self-image, forecasting one's emotions, knowing the limits of one's knowledge."
+   }
+  }
+ ],
+ "benson": {
+  "problems": [
+   {
+    "id": "C1",
+    "fr": "Trop d'information",
+    "en": "Too much information"
+   },
+   {
+    "id": "C2",
+    "fr": "Pas assez de sens",
+    "en": "Not enough meaning"
+   },
+   {
+    "id": "C3",
+    "fr": "Besoin d'agir vite",
+    "en": "Need to act fast"
+   },
+   {
+    "id": "C4",
+    "fr": "Que retenir ?",
+    "en": "What should we remember?"
+   }
+  ],
+  "strategies": [
+   {
+    "id": "C1a",
+    "fr": "On remarque ce qui est déjà en mémoire ou souvent répété",
+    "en": "We notice things already primed in memory or repeated often"
+   },
+   {
+    "id": "C1b",
+    "fr": "Le bizarre, le drôle et le frappant ressortent davantage",
+    "en": "Bizarre, funny, visually striking things stick out more"
+   },
+   {
+    "id": "C1c",
+    "fr": "On remarque ce qui a changé",
+    "en": "We notice when something has changed"
+   },
+   {
+    "id": "C1d",
+    "fr": "On est attiré par ce qui confirme nos croyances",
+    "en": "We are drawn to details that confirm our existing beliefs"
+   },
+   {
+    "id": "C1e",
+    "fr": "On voit les failles des autres plus que les nôtres",
+    "en": "We notice flaws in others more easily than in ourselves"
+   },
+   {
+    "id": "C2a",
+    "fr": "On voit des histoires et des motifs dans des données éparses",
+    "en": "We find stories and patterns even in sparse data"
+   },
+   {
+    "id": "C2b",
+    "fr": "On comble les vides avec des stéréotypes et des généralités",
+    "en": "We fill in characteristics from stereotypes, generalities and prior histories"
+   },
+   {
+    "id": "C2c",
+    "fr": "On juge meilleur ce qui nous est familier ou cher",
+    "en": "We imagine things and people we're familiar with or fond of as better"
+   },
+   {
+    "id": "C2d",
+    "fr": "On simplifie les nombres et les probabilités",
+    "en": "We simplify probabilities and numbers to make them easier to think about"
+   },
+   {
+    "id": "C2e",
+    "fr": "On croit savoir ce que pensent les autres",
+    "en": "We think we know what others are thinking"
+   },
+   {
+    "id": "C2f",
+    "fr": "On projette le présent sur le passé et le futur",
+    "en": "We project our current mindset onto the past and future"
+   },
+   {
+    "id": "C3a",
+    "fr": "Pour agir, il faut se sentir capable et important",
+    "en": "To act, we must be confident we can make an impact and that it matters"
+   },
+   {
+    "id": "C3b",
+    "fr": "On privilégie l'immédiat et le proche",
+    "en": "To stay focused, we favour the immediate, relatable thing in front of us"
+   },
+   {
+    "id": "C3c",
+    "fr": "On termine ce dans quoi on a déjà investi",
+    "en": "To get things done, we complete what we've invested time and energy in"
+   },
+   {
+    "id": "C3d",
+    "fr": "On préserve son autonomie et on évite l'irréversible",
+    "en": "To avoid mistakes, we preserve autonomy and status and avoid irreversible decisions"
+   },
+   {
+    "id": "C3e",
+    "fr": "On préfère les options simples et complètes",
+    "en": "We favour simple options with complete information over complex, ambiguous ones"
+   },
+   {
+    "id": "C4a",
+    "fr": "On modifie et renforce les souvenirs après coup",
+    "en": "We edit and reinforce some memories after the fact"
+   },
+   {
+    "id": "C4b",
+    "fr": "On écarte les détails au profit des généralités",
+    "en": "We discard specifics to form generalities"
+   },
+   {
+    "id": "C4c",
+    "fr": "On réduit événements et listes à quelques éléments clés",
+    "en": "We reduce events and lists to their key elements"
+   },
+   {
+    "id": "C4d",
+    "fr": "On mémorise selon la façon dont on a vécu l'expérience",
+    "en": "We store memories differently based on how they were experienced"
+   }
+  ]
+ },
+ "biases": [
+  {
+   "id": "B001",
+   "n": 1,
+   "process": "P1",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": true
+   },
+   "doi": "10.1037/0021-843X.95.1.15",
+   "reference": "MacLeod, C., Mathews, A., &amp; Tata, P. (1986). Attentional bias in emotional disorders. <i>Journal of Abnormal Psychology</i>, <i>95</i>(1), 15–20.",
+   "related": [
+    "B004",
+    "B023",
+    "B005"
+   ],
+   "fr": {
+    "name": "Biais attentionnel",
+    "slug": "biais-attentionnel",
+    "definition": "Tendance à orienter en priorité son attention vers les stimuli liés à ses préoccupations, à ses émotions ou aux menaces perçues.",
+    "example": "Une personne qui a peur de l'avion remarque chaque article sur un incident aérien dans son fil d'actualité.",
+    "mechanism": "Capture attentionnelle automatique par la menace ; saillance émotionnelle",
+    "robustness_note": "Effet retrouvé en méta-analyse chez les personnes anxieuses (Bar-Haim et al., 2007), mais la fidélité de la tâche de détection de point (dot-probe) est faible.",
+    "countermeasures": "Repérer ses déclencheurs ; diversifier volontairement ses sources d'information ; programmes de réentraînement attentionnel (efficacité discutée)."
+   },
+   "en": {
+    "name": "Attentional bias",
+    "aka": "",
+    "slug": "attentional-bias",
+    "definition": "The tendency to direct attention preferentially towards stimuli related to one's concerns, emotions or perceived threats.",
+    "example": "Someone afraid of flying notices every article about an aviation incident in their news feed.",
+    "mechanism": "Automatic attentional capture by threat; emotional salience",
+    "robustness_note": "Found in meta-analyses of anxious individuals (Bar-Haim et al., 2007), but the reliability of the dot-probe task used to measure it is low.",
+    "countermeasures": "Identify your triggers; deliberately diversify your information sources; attention-retraining programmes (effectiveness debated)."
+   }
+  },
+  {
+   "id": "B002",
+   "n": 2,
+   "process": "P1",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": false
+   },
+   "doi": "10.1068/p281059",
+   "reference": "Simons, D. J., &amp; Chabris, C. F. (1999). Gorillas in our midst: Sustained inattentional blindness for dynamic events. <i>Perception</i>, <i>28</i>(9), 1059–1074.",
+   "related": [
+    "B003",
+    "B010",
+    "B011"
+   ],
+   "fr": {
+    "name": "Cécité d'inattention",
+    "slug": "cecite-d-inattention",
+    "definition": "Incapacité à percevoir un élément pourtant bien visible lorsque l'attention est mobilisée par une autre tâche.",
+    "example": "En comptant les passes d'un ballon dans une vidéo, la moitié des spectateurs ne voient pas une personne déguisée en gorille traverser la scène.",
+    "mechanism": "Capacité attentionnelle limitée ; filtrage sélectif",
+    "robustness_note": "Très souvent répliqué, y compris chez des experts : 83 % de radiologues ne voient pas un gorille inséré dans un scanner (Drew et al., 2013).",
+    "countermeasures": "Check-lists ; double contrôle par une seconde personne ; pauses pour élargir le champ d'attention."
+   },
+   "en": {
+    "name": "Inattentional blindness",
+    "aka": "",
+    "slug": "inattentional-blindness",
+    "definition": "The failure to perceive a clearly visible element when attention is engaged in another task.",
+    "example": "While counting basketball passes in a video, half of viewers fail to see a person in a gorilla suit walk across the scene.",
+    "mechanism": "Limited attentional capacity; selective filtering",
+    "robustness_note": "Replicated many times, including with experts: 83% of radiologists missed a gorilla inserted into a lung scan (Drew et al., 2013).",
+    "countermeasures": "Checklists; independent double-checking by a second person; breaks to widen the field of attention."
+   }
+  },
+  {
+   "id": "B003",
+   "n": 3,
+   "process": "P1",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1c",
+    "listed": false
+   },
+   "doi": "10.1111/j.1467-9280.1997.tb00427.x",
+   "reference": "Rensink, R. A., O'Regan, J. K., &amp; Clark, J. J. (1997). To see or not to see: The need for attention to perceive changes in scenes. <i>Psychological Science</i>, <i>8</i>(5), 368–373.",
+   "related": [
+    "B002",
+    "B018"
+   ],
+   "fr": {
+    "name": "Cécité au changement",
+    "slug": "cecite-au-changement",
+    "definition": "Difficulté à détecter des modifications importantes d'une scène lorsqu'elles surviennent pendant une brève interruption (clignement, coupure, saccade).",
+    "example": "On ne remarque pas qu'un acteur a changé de chemise entre deux plans d'un film.",
+    "mechanism": "Représentation visuelle lacunaire ; l'attention est nécessaire pour encoder les détails",
+    "robustness_note": "Paradigme du « flicker » largement répliqué ; version en interaction réelle où l'interlocuteur est remplacé sans que la moitié des gens s'en aperçoivent (Simons & Levin, 1998).",
+    "countermeasures": "Comparer côte à côte (outil de comparaison de versions) plutôt que de mémoire ; relecture croisée des documents."
+   },
+   "en": {
+    "name": "Change blindness",
+    "aka": "",
+    "slug": "change-blindness",
+    "definition": "The difficulty of detecting major changes in a scene when they occur during a brief interruption (blink, cut, eye movement).",
+    "example": "Viewers fail to notice that an actor's shirt has changed between two shots of a film.",
+    "mechanism": "Sparse visual representation; attention is required to encode details",
+    "robustness_note": "The flicker paradigm has been widely replicated; in a real-life version, half of people failed to notice that the person they were talking to had been replaced (Simons & Levin, 1998).",
+    "countermeasures": "Compare side by side (version-comparison tools) rather than from memory; cross-check documents with a colleague."
+   }
+  },
+  {
+   "id": "B004",
+   "n": 4,
+   "process": "P1",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1b",
+    "listed": true
+   },
+   "doi": "10.1037/1089-2680.5.4.323",
+   "reference": "Baumeister, R. F., Bratslavsky, E., Finkenauer, C., &amp; Vohs, K. D. (2001). Bad is stronger than good. <i>Review of General Psychology</i>, <i>5</i>(4), 323–370.",
+   "related": [
+    "B042",
+    "B001",
+    "B023"
+   ],
+   "fr": {
+    "name": "Biais de négativité",
+    "slug": "biais-de-negativite",
+    "definition": "Tendance à accorder plus de poids aux informations, événements ou émotions négatifs qu'aux positifs d'intensité équivalente.",
+    "example": "Sur dix retours positifs et une critique, c'est la critique qu'on rumine toute la soirée.",
+    "mechanism": "Valeur adaptative de la détection des menaces ; asymétrie affective",
+    "robustness_note": "Convergence de nombreux domaines (Rozin & Royzman, 2001) ; l'ampleur varie selon les contextes et s'atténue avec l'âge (effet de positivité).",
+    "countermeasures": "Noter explicitement les points positifs ; se demander quel poids on donnerait à l'information inverse ; différer sa réaction."
+   },
+   "en": {
+    "name": "Negativity bias",
+    "aka": "",
+    "slug": "negativity-bias",
+    "definition": "The tendency to give more weight to negative information, events or emotions than to positive ones of equal intensity.",
+    "example": "Out of ten positive comments and one criticism, it is the criticism you keep turning over all evening.",
+    "mechanism": "Adaptive value of threat detection; affective asymmetry",
+    "robustness_note": "Converging evidence from many domains (Rozin & Royzman, 2001); its strength varies with context and declines with age (positivity effect).",
+    "countermeasures": "Write down the positive points explicitly; ask how much weight you would give the opposite information; delay your reaction."
+   }
+  },
+  {
+   "id": "B005",
+   "n": 5,
+   "process": "P1",
+   "robustness": "fragile",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": true
+   },
+   "doi": null,
+   "reference": "Zwicky, A. (2006, August 7). Why are we so illuded? <i>Language Log</i>.",
+   "related": [
+    "B001",
+    "B060",
+    "B033"
+   ],
+   "fr": {
+    "name": "Illusion de fréquence",
+    "slug": "illusion-de-frequence",
+    "definition": "Impression qu'un élément récemment remarqué apparaît soudain partout, alors que seule notre attention a changé.",
+    "example": "Après avoir appris le mot « sérendipité », on a l'impression de le lire dans chaque article.",
+    "mechanism": "Attention sélective + biais de confirmation (on ne compte que les occurrences remarquées)",
+    "robustness_note": "Terme forgé par un linguiste sur un blog ; les mécanismes sous-jacents (attention sélective, confirmation) sont établis, mais le phénomène lui-même est peu testé expérimentalement.",
+    "countermeasures": "Compter réellement les occurrences sur une période ; se demander si c'est la fréquence qui a changé ou seulement sa perception."
+   },
+   "en": {
+    "name": "Frequency illusion",
+    "aka": "Baader-Meinhof phenomenon",
+    "slug": "frequency-illusion",
+    "definition": "The impression that something you have recently noticed suddenly appears everywhere, when only your attention has changed.",
+    "example": "After learning the word 'serendipity', you seem to come across it in every article.",
+    "mechanism": "Selective attention + confirmation bias (only noticed occurrences are counted)",
+    "robustness_note": "Term coined by a linguist in a blog post; the underlying mechanisms (selective attention, confirmation) are well established, but the phenomenon itself has rarely been tested experimentally.",
+    "countermeasures": "Actually count occurrences over a period; ask whether the frequency has changed or only your perception of it."
+   }
+  },
+  {
+   "id": "B006",
+   "n": 6,
+   "process": "P1",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1b",
+    "listed": false
+   },
+   "doi": "10.1037/h0077095",
+   "reference": "Taylor, S. E., &amp; Fiske, S. T. (1975). Point of view and perceptions of causality. <i>Journal of Personality and Social Psychology</i>, <i>32</i>(3), 439–445.",
+   "related": [
+    "B025",
+    "B073",
+    "B010"
+   ],
+   "fr": {
+    "name": "Biais de saillance",
+    "slug": "biais-de-saillance",
+    "definition": "Tendance à surestimer l'importance ou le rôle causal de ce qui est visuellement ou émotionnellement saillant.",
+    "example": "En réunion, on attribue l'orientation du débat à la personne assise en face de soi, celle qu'on voyait le mieux.",
+    "mechanism": "Ce qui capte l'attention est jugé plus causal",
+    "robustness_note": "Effet du point de vue retrouvé dans des contextes appliqués, notamment les aveux filmés en interrogatoire (Lassiter, 2002).",
+    "countermeasures": "Varier les angles de vue (comptes rendus, enregistrements) ; s'appuyer sur des critères définis à l'avance plutôt que sur l'impression."
+   },
+   "en": {
+    "name": "Salience bias",
+    "aka": "",
+    "slug": "salience-bias",
+    "definition": "The tendency to overestimate the importance or causal role of whatever is visually or emotionally salient.",
+    "example": "In a meeting, you credit the direction of the discussion to the person sitting opposite you — the one you could see best.",
+    "mechanism": "What captures attention is judged more causal",
+    "robustness_note": "The point-of-view effect has been found in applied settings, notably videotaped confessions (Lassiter, 2002).",
+    "countermeasures": "Vary viewpoints (minutes, recordings); rely on criteria set in advance rather than on impressions."
+   }
+  },
+  {
+   "id": "B007",
+   "n": 7,
+   "process": "P1",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1c",
+    "listed": true
+   },
+   "doi": "10.1037/h0048784",
+   "reference": "Sherif, M., Taub, D., &amp; Hovland, C. I. (1958). Assimilation and contrast effects of anchoring stimuli on judgments. <i>Journal of Experimental Psychology</i>, <i>55</i>(2), 150–155.",
+   "related": [
+    "B027",
+    "B049",
+    "B075"
+   ],
+   "fr": {
+    "name": "Effet de contraste",
+    "slug": "effet-de-contraste",
+    "definition": "Jugement d'un élément amplifié ou atténué par comparaison avec l'élément examiné juste avant.",
+    "example": "Un candidat moyen paraît excellent lorsqu'il passe juste après un entretien catastrophique.",
+    "mechanism": "Jugement relatif à un point de référence immédiat",
+    "robustness_note": "Observé en psychophysique, en recrutement, en notation et en évaluation de projets.",
+    "countermeasures": "Évaluer avec une grille de critères absolus ; varier l'ordre de passage ; noter chaque dossier avant de passer au suivant."
+   },
+   "en": {
+    "name": "Contrast effect",
+    "aka": "",
+    "slug": "contrast-effect",
+    "definition": "A judgement made more or less favourable by comparison with the item examined just before.",
+    "example": "An average candidate seems excellent when interviewed right after a disastrous one.",
+    "mechanism": "Judgement relative to an immediate reference point",
+    "robustness_note": "Observed in psychophysics, recruitment, grading and project evaluation.",
+    "countermeasures": "Assess against a grid of absolute criteria; vary the order of assessment; score each file before moving on to the next."
+   }
+  },
+  {
+   "id": "B008",
+   "n": 8,
+   "process": "P1",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": true
+   },
+   "doi": "10.1037/h0025848",
+   "reference": "Zajonc, R. B. (1968). Attitudinal effects of mere exposure. <i>Journal of Personality and Social Psychology</i>, <i>9</i>(2, Pt. 2), 1–27.",
+   "related": [
+    "B009",
+    "B066",
+    "B045"
+   ],
+   "fr": {
+    "name": "Effet de simple exposition",
+    "slug": "effet-de-simple-exposition",
+    "definition": "Tendance à apprécier davantage un stimulus du seul fait d'y avoir été exposé de façon répétée.",
+    "example": "Une chanson agaçante à la première écoute finit par plaire après plusieurs passages à la radio.",
+    "mechanism": "Fluidité de traitement interprétée comme préférence",
+    "robustness_note": "Méta-analyse de Bornstein (1989) ; l'effet plafonne puis décroît lorsque les expositions sont trop nombreuses.",
+    "countermeasures": "Distinguer « familier » et « bon » ; comparer à l'aveugle (sans marque, sans nom)."
+   },
+   "en": {
+    "name": "Mere exposure effect",
+    "aka": "",
+    "slug": "mere-exposure-effect",
+    "definition": "The tendency to like a stimulus more simply because one has been repeatedly exposed to it.",
+    "example": "A song that grates on first hearing ends up being liked after several plays on the radio.",
+    "mechanism": "Processing fluency interpreted as preference",
+    "robustness_note": "Meta-analysis by Bornstein (1989); the effect levels off and then declines when exposures become too numerous.",
+    "countermeasures": "Distinguish 'familiar' from 'good'; compare blind (no brand, no name)."
+   }
+  },
+  {
+   "id": "B009",
+   "n": 9,
+   "process": "P1",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": false
+   },
+   "doi": "10.1006/ccog.1999.0386",
+   "reference": "Reber, R., &amp; Schwarz, N. (1999). Effects of perceptual fluency on judgments of truth. <i>Consciousness and Cognition</i>, <i>8</i>(3), 338–342.",
+   "related": [
+    "B008",
+    "B066",
+    "B025"
+   ],
+   "fr": {
+    "name": "Biais de fluidité",
+    "slug": "biais-de-fluidite",
+    "definition": "Tendance à juger plus vrai, plus agréable ou plus fréquent ce qui est facile à percevoir ou à traiter.",
+    "example": "Une affirmation écrite dans une police lisible et bien contrastée paraît plus crédible que la même en gris pâle.",
+    "mechanism": "La facilité subjective sert d'indice de vérité ou de valeur",
+    "robustness_note": "Effet général robuste (synthèse : Alter & Oppenheimer, 2009) ; en revanche, l'idée qu'une police difficile à lire améliore le raisonnement n'a pas résisté aux réplications (Meyer et al., 2015).",
+    "countermeasures": "Vérifier la source et non la forme ; se méfier des formules trop bien tournées."
+   },
+   "en": {
+    "name": "Processing fluency bias",
+    "aka": "",
+    "slug": "processing-fluency-bias",
+    "definition": "The tendency to judge whatever is easy to perceive or process as truer, more pleasant or more frequent.",
+    "example": "A statement printed in a clear, high-contrast font seems more credible than the same statement in pale grey.",
+    "mechanism": "Subjective ease used as a cue to truth or value",
+    "robustness_note": "The general effect is robust (review: Alter & Oppenheimer, 2009); however, the idea that hard-to-read fonts improve reasoning did not survive replication (Meyer et al., 2015).",
+    "countermeasures": "Check the source, not the form; be wary of statements that sound too polished."
+   }
+  },
+  {
+   "id": "B010",
+   "n": 10,
+   "process": "P1",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1c",
+    "listed": false
+   },
+   "doi": "10.1111/1467-9280.00066",
+   "reference": "Schkade, D. A., &amp; Kahneman, D. (1998). Does living in California make people happy? A focusing illusion in judgments of life satisfaction. <i>Psychological Science</i>, <i>9</i>(5), 340–346.",
+   "related": [
+    "B097",
+    "B006",
+    "B002"
+   ],
+   "fr": {
+    "name": "Illusion de focalisation",
+    "slug": "illusion-de-focalisation",
+    "definition": "Tendance à surestimer l'effet d'un facteur sur un jugement global simplement parce qu'on y pense au moment de juger.",
+    "example": "« Si j'habitais au soleil, je serais plus heureuse » : on oublie tout ce qui ne changerait pas.",
+    "mechanism": "Attention focalisée sur une dimension ; négligence des autres",
+    "robustness_note": "Retrouvé dans plusieurs études sur le revenu, le climat et le bien-être, avec des tailles d'effet variables.",
+    "countermeasures": "Lister les autres facteurs en jeu ; imaginer une journée type complète plutôt que le seul élément saillant."
+   },
+   "en": {
+    "name": "Focusing illusion",
+    "aka": "",
+    "slug": "focusing-illusion",
+    "definition": "The tendency to overestimate the effect of a single factor on an overall judgement simply because it is in mind at the time.",
+    "example": "'If I lived somewhere sunny, I'd be happier' — forgetting everything that would stay the same.",
+    "mechanism": "Attention focused on one dimension; neglect of the others",
+    "robustness_note": "Found in several studies on income, climate and well-being, with varying effect sizes.",
+    "countermeasures": "List the other factors involved; picture a whole typical day rather than the single salient element."
+   }
+  },
+  {
+   "id": "B011",
+   "n": 11,
+   "process": "P1",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2b",
+    "listed": true
+   },
+   "doi": "10.1177/0018720810376055",
+   "reference": "Parasuraman, R., &amp; Manzey, D. H. (2010). Complacency and bias in human use of automation: An attentional integration. <i>Human Factors</i>, <i>52</i>(3), 381–410.",
+   "related": [
+    "B058",
+    "B088",
+    "B060"
+   ],
+   "fr": {
+    "name": "Biais d'automatisation",
+    "slug": "biais-d-automatisation",
+    "definition": "Tendance à suivre les recommandations d'un système automatisé sans les vérifier, même quand d'autres indices les contredisent.",
+    "example": "Suivre le GPS jusque dans un chemin impraticable ; recopier une réponse d'IA sans la relire.",
+    "mechanism": "Économie d'effort attentionnel ; confiance excessive dans la machine",
+    "robustness_note": "Documenté en aviation, en médecine et en aide à la décision (revue systématique : Goddard et al., 2012).",
+    "countermeasures": "Exiger une vérification indépendante pour les décisions critiques ; afficher le niveau de confiance du système ; former aux cas d'erreur."
+   },
+   "en": {
+    "name": "Automation bias",
+    "aka": "",
+    "slug": "automation-bias",
+    "definition": "The tendency to follow the recommendations of an automated system without checking them, even when other cues contradict them.",
+    "example": "Following the GPS down an impassable track; copying an AI answer without reading it through.",
+    "mechanism": "Saving attentional effort; excessive trust in the machine",
+    "robustness_note": "Documented in aviation, medicine and decision support (systematic review: Goddard et al., 2012).",
+    "countermeasures": "Require independent verification for critical decisions; display the system's confidence level; train people on failure cases."
+   }
+  },
+  {
+   "id": "B012",
+   "n": 12,
+   "process": "P2",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C4",
+    "strategy": "C4c",
+    "listed": true
+   },
+   "doi": "10.1037/h0045106",
+   "reference": "Murdock, B. B., Jr. (1962). The serial position effect of free recall. <i>Journal of Experimental Psychology</i>, <i>64</i>(5), 482–488.",
+   "related": [
+    "B086",
+    "B022",
+    "B016"
+   ],
+   "fr": {
+    "name": "Effet de position sérielle",
+    "slug": "effet-de-position-serielle",
+    "definition": "Meilleur rappel des premiers (primauté) et des derniers (récence) éléments d'une liste que de ceux du milieu.",
+    "example": "Après une présentation de vingt diapositives, on se souvient surtout de la première et de la dernière.",
+    "mechanism": "Répétition en mémoire à long terme (primauté) ; contenu encore actif en mémoire de travail (récence)",
+    "robustness_note": "Un des effets les plus stables de la psychologie de la mémoire, déjà décrit par Ebbinghaus.",
+    "countermeasures": "Placer les informations clés au début et à la fin ; récapituler ; varier l'ordre lors des révisions."
+   },
+   "en": {
+    "name": "Serial position effect",
+    "aka": "",
+    "slug": "serial-position-effect",
+    "definition": "Better recall of the first (primacy) and last (recency) items in a list than of those in the middle.",
+    "example": "After a twenty-slide presentation, you mostly remember the first and the last slides.",
+    "mechanism": "Rehearsal into long-term memory (primacy); content still active in working memory (recency)",
+    "robustness_note": "One of the most stable effects in memory research, already described by Ebbinghaus.",
+    "countermeasures": "Put key information at the beginning and end; summarise; vary the order when revising."
+   }
+  },
+  {
+   "id": "B013",
+   "n": 13,
+   "process": "P2",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C4",
+    "strategy": "C4c",
+    "listed": true
+   },
+   "doi": "10.1016/S0022-5371(74)80011-3",
+   "reference": "Loftus, E. F., &amp; Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. <i>Journal of Verbal Learning and Verbal Behavior</i>, <i>13</i>(5), 585–589.",
+   "related": [
+    "B014",
+    "B018",
+    "B015"
+   ],
+   "fr": {
+    "name": "Effet de désinformation",
+    "slug": "effet-de-desinformation",
+    "definition": "Altération d'un souvenir par des informations trompeuses reçues après l'événement.",
+    "example": "Interrogés avec le verbe « fracassées », des témoins se rappellent un pare-brise brisé qui n'existait pas.",
+    "mechanism": "Mémoire reconstructive ; intégration de l'information post-événement",
+    "robustness_note": "L'effet général est très largement répliqué ; l'effet précis du verbe employé dans la question est plus variable.",
+    "countermeasures": "Noter les faits immédiatement ; poser des questions ouvertes et neutres ; éviter les questions suggestives (entretien cognitif)."
+   },
+   "en": {
+    "name": "Misinformation effect",
+    "aka": "",
+    "slug": "misinformation-effect",
+    "definition": "The alteration of a memory by misleading information received after the event.",
+    "example": "Asked how fast the cars were going when they 'smashed', witnesses recall broken glass that was never there.",
+    "mechanism": "Reconstructive memory; integration of post-event information",
+    "robustness_note": "The general effect is very widely replicated; the specific effect of the verb used in the question is more variable.",
+    "countermeasures": "Write facts down immediately; ask open, neutral questions; avoid leading questions (cognitive interview)."
+   }
+  },
+  {
+   "id": "B014",
+   "n": 14,
+   "process": "P2",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C4",
+    "strategy": "C4a",
+    "listed": true
+   },
+   "doi": "10.1037/0278-7393.21.4.803",
+   "reference": "Roediger, H. L., III, &amp; McDermott, K. B. (1995). Creating false memories: Remembering words not presented in lists. <i>Journal of Experimental Psychology: Learning, Memory, and Cognition</i>, <i>21</i>(4), 803–814.",
+   "related": [
+    "B013",
+    "B018"
+   ],
+   "fr": {
+    "name": "Faux souvenirs",
+    "slug": "faux-souvenirs",
+    "definition": "Rappel confiant d'éléments ou d'événements qui n'ont jamais été présentés ni vécus.",
+    "example": "Après une liste « lit, repos, rêve, nuit, oreiller… », on jure avoir lu le mot « sommeil », absent de la liste.",
+    "mechanism": "Activation sémantique associée ; mémoire reconstructive",
+    "robustness_note": "Le paradigme DRM (Deese-Roediger-McDermott) est parmi les plus fiables ; l'implantation de faux souvenirs autobiographiques complets est plus débattue.",
+    "countermeasures": "Distinguer certitude et exactitude ; s'appuyer sur des traces écrites."
+   },
+   "en": {
+    "name": "False memory",
+    "aka": "DRM paradigm",
+    "slug": "false-memory",
+    "definition": "Confident recall of items or events that were never presented or experienced.",
+    "example": "After a list such as 'bed, rest, dream, night, pillow…', you would swear you saw the word 'sleep', which was not on the list.",
+    "mechanism": "Associative semantic activation; reconstructive memory",
+    "robustness_note": "The DRM paradigm (Deese-Roediger-McDermott) is among the most reliable; implanting complete false autobiographical memories is more debated.",
+    "countermeasures": "Distinguish certainty from accuracy; rely on written records."
+   }
+  },
+  {
+   "id": "B015",
+   "n": 15,
+   "process": "P2",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2f",
+    "listed": true
+   },
+   "doi": "10.1037/0096-1523.1.3.288",
+   "reference": "Fischhoff, B. (1975). Hindsight ≠ foresight: The effect of outcome knowledge on judgment under uncertainty. <i>Journal of Experimental Psychology: Human Perception and Performance</i>, <i>1</i>(3), 288–299.",
+   "related": [
+    "B072",
+    "B036",
+    "B020"
+   ],
+   "fr": {
+    "name": "Biais rétrospectif",
+    "slug": "biais-retrospectif",
+    "definition": "Tendance, une fois le résultat connu, à croire qu'on l'avait prévu ou qu'il était prévisible.",
+    "example": "« Je savais que ce projet allait échouer » — alors qu'on l'avait validé sans réserve.",
+    "mechanism": "Mise à jour automatique de la mémoire par le résultat ; recherche de cohérence",
+    "robustness_note": "Méta-analyse de Guilbault et al. (2004) : effet modéré mais très général.",
+    "countermeasures": "Consigner ses prévisions avant l'issue (journal de décision) ; juger une décision d'après l'information disponible au moment où elle a été prise."
+   },
+   "en": {
+    "name": "Hindsight bias",
+    "aka": "",
+    "slug": "hindsight-bias",
+    "definition": "The tendency, once the outcome is known, to believe one had predicted it or that it was predictable.",
+    "example": "'I knew that project would fail' — although you approved it without reservation.",
+    "mechanism": "Automatic updating of memory by the outcome; need for coherence",
+    "robustness_note": "Meta-analysis by Guilbault et al. (2004): a moderate but very general effect.",
+    "countermeasures": "Record your forecasts before the outcome (decision journal); judge a decision by the information available when it was made."
+   }
+  },
+  {
+   "id": "B016",
+   "n": 16,
+   "process": "P2",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1b",
+    "listed": true
+   },
+   "doi": "10.1007/BF02409636",
+   "reference": "von Restorff, H. (1933). Über die Wirkung von Bereichsbildungen im Spurenfeld. <i>Psychologische Forschung</i>, <i>18</i>(1), 299–342.",
+   "related": [
+    "B006",
+    "B012"
+   ],
+   "fr": {
+    "name": "Effet von Restorff",
+    "slug": "effet-von-restorff",
+    "definition": "Meilleure mémorisation d'un élément qui se distingue de ceux qui l'entourent.",
+    "example": "Dans une liste de courses, on retient le seul article écrit en rouge.",
+    "mechanism": "Distinctivité à l'encodage",
+    "robustness_note": "Effet stable ; l'élément distinctif peut aussi détourner l'attention des éléments voisins.",
+    "countermeasures": "Ne mettre en évidence que l'essentiel ; vérifier que la mise en valeur ne masque pas d'autres informations importantes."
+   },
+   "en": {
+    "name": "Von Restorff effect",
+    "aka": "isolation effect",
+    "slug": "von-restorff-effect",
+    "definition": "Better memory for an item that stands out from those around it.",
+    "example": "On a shopping list, you remember the only item written in red.",
+    "mechanism": "Distinctiveness at encoding",
+    "robustness_note": "A stable effect; the distinctive item can also draw attention away from neighbouring items.",
+    "countermeasures": "Highlight only what is essential; check that the highlighting does not hide other important information."
+   }
+  },
+  {
+   "id": "B017",
+   "n": 17,
+   "process": "P2",
+   "robustness": "fragile",
+   "benson": {
+    "problem": "C4",
+    "strategy": "C4d",
+    "listed": false
+   },
+   "doi": "10.1007/BF02409755",
+   "reference": "Zeigarnik, B. (1927). Das Behalten erledigter und unerledigter Handlungen. <i>Psychologische Forschung</i>, <i>9</i>, 1–85.",
+   "related": [
+    "B016",
+    "B047"
+   ],
+   "fr": {
+    "name": "Effet Zeigarnik",
+    "slug": "effet-zeigarnik",
+    "definition": "Hypothèse selon laquelle on se souvient mieux des tâches interrompues ou inachevées que des tâches terminées.",
+    "example": "La série abandonnée à mi-saison reste en tête plus que celle qu'on a finie.",
+    "mechanism": "Tension motivationnelle liée au but non atteint (théorie du champ de Lewin)",
+    "robustness_note": "Une méta-analyse ne retrouve pas d'avantage mnésique général des tâches inachevées (Ghibellini & Meier, 2023) ; la tendance à reprendre une tâche interrompue (effet Ovsiankina) est mieux soutenue.",
+    "countermeasures": "Noter les tâches en suspens pour libérer l'esprit ; planifier la reprise plutôt que compter sur sa mémoire."
+   },
+   "en": {
+    "name": "Zeigarnik effect",
+    "aka": "",
+    "slug": "zeigarnik-effect",
+    "definition": "The hypothesis that interrupted or unfinished tasks are remembered better than completed ones.",
+    "example": "The series you abandoned mid-season stays on your mind more than the one you finished.",
+    "mechanism": "Motivational tension linked to an unattained goal (Lewin's field theory)",
+    "robustness_note": "A meta-analysis finds no general memory advantage for unfinished tasks (Ghibellini & Meier, 2023); the tendency to resume an interrupted task (Ovsiankina effect) is better supported.",
+    "countermeasures": "Write down pending tasks to free your mind; schedule when to resume rather than relying on memory."
+   }
+  },
+  {
+   "id": "B018",
+   "n": 18,
+   "process": "P2",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C4",
+    "strategy": "C4a",
+    "listed": true
+   },
+   "doi": "10.1037/0033-2909.114.1.3",
+   "reference": "Johnson, M. K., Hashtroudi, S., &amp; Lindsay, D. S. (1993). Source monitoring. <i>Psychological Bulletin</i>, <i>114</i>(1), 3–28.",
+   "related": [
+    "B013",
+    "B014",
+    "B066"
+   ],
+   "fr": {
+    "name": "Confusion de source",
+    "slug": "confusion-de-source",
+    "definition": "Attribution erronée de l'origine d'un souvenir : qui l'a dit, où on l'a lu, si on l'a vécu ou seulement imaginé.",
+    "example": "On présente comme sienne une idée entendue en réunion la semaine précédente (cryptomnésie).",
+    "mechanism": "Indices de source faiblement encodés ; jugements de source reconstruits après coup",
+    "robustness_note": "Cadre théorique largement validé ; il inclut la cryptomnésie, ou plagiat involontaire (Brown & Murphy, 1989).",
+    "countermeasures": "Prendre des notes en indiquant la source ; citer systématiquement ; vérifier l'origine avant de partager une information."
+   },
+   "en": {
+    "name": "Source confusion",
+    "aka": "source-monitoring error",
+    "slug": "source-confusion",
+    "definition": "Misattributing the origin of a memory: who said it, where you read it, whether you experienced it or only imagined it.",
+    "example": "You present as your own an idea you heard in a meeting the week before (cryptomnesia).",
+    "mechanism": "Weakly encoded source cues; source judgements reconstructed after the fact",
+    "robustness_note": "A widely validated theoretical framework; it includes cryptomnesia, or inadvertent plagiarism (Brown & Murphy, 1989).",
+    "countermeasures": "Take notes with their source; cite systematically; check where information comes from before sharing it."
+   }
+  },
+  {
+   "id": "B019",
+   "n": 19,
+   "process": "P2",
+   "robustness": "fragile",
+   "benson": {
+    "problem": "C4",
+    "strategy": "C4d",
+    "listed": true
+   },
+   "doi": "10.1126/science.1207745",
+   "reference": "Sparrow, B., Liu, J., &amp; Wegner, D. M. (2011). Google effects on memory: Cognitive consequences of having information at our fingertips. <i>Science</i>, <i>333</i>(6043), 776–778.",
+   "related": [
+    "B099",
+    "B011"
+   ],
+   "fr": {
+    "name": "Effet Google",
+    "slug": "effet-google",
+    "definition": "Tendance à moins bien retenir une information lorsqu'on sait qu'elle restera accessible en ligne.",
+    "example": "On ne connaît plus aucun numéro de téléphone par cœur depuis qu'ils sont dans le smartphone.",
+    "mechanism": "Mémoire transactive : délégation du stockage à un support externe",
+    "robustness_note": "L'étude originale n'a pas été répliquée dans le projet de réplication des articles de Science et Nature (Camerer et al., 2018).",
+    "countermeasures": "Pratiquer le rappel actif (flashcards) ; distinguer « savoir où trouver » et « savoir »."
+   },
+   "en": {
+    "name": "Google effect",
+    "aka": "digital amnesia",
+    "slug": "google-effect",
+    "definition": "The tendency to remember information less well when one knows it will remain available online.",
+    "example": "You no longer know any phone number by heart since they are all stored in your smartphone.",
+    "mechanism": "Transactive memory: storage delegated to an external medium",
+    "robustness_note": "The original study failed to replicate in the project replicating social science papers published in Science and Nature (Camerer et al., 2018).",
+    "countermeasures": "Practise active recall (flashcards); distinguish 'knowing where to find' from 'knowing'."
+   }
+  },
+  {
+   "id": "B020",
+   "n": 20,
+   "process": "P2",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2f",
+    "listed": true
+   },
+   "doi": "10.1016/0022-1031(73)90030-9",
+   "reference": "Goethals, G. R., &amp; Reckman, R. F. (1973). The perception of consistency in attitudes. <i>Journal of Experimental Social Psychology</i>, <i>9</i>(6), 491–501.",
+   "related": [
+    "B015",
+    "B096",
+    "B021"
+   ],
+   "fr": {
+    "name": "Biais de cohérence",
+    "slug": "biais-de-coherence",
+    "definition": "Tendance à reconstruire ses attitudes ou comportements passés comme semblables à ceux d'aujourd'hui.",
+    "example": "Devenue favorable à une réforme, on croit sincèrement l'avoir toujours soutenue.",
+    "mechanism": "Mémoire reconstructive guidée par l'état présent",
+    "robustness_note": "Retrouvé dans des études longitudinales, par exemple sur les attitudes politiques (Markus, 1986).",
+    "countermeasures": "Conserver des traces datées de ses opinions ; relire ses anciens écrits avant d'affirmer « j'ai toujours pensé que… »."
+   },
+   "en": {
+    "name": "Consistency bias",
+    "aka": "",
+    "slug": "consistency-bias",
+    "definition": "The tendency to reconstruct one's past attitudes or behaviour as similar to those of today.",
+    "example": "Having come round to supporting a reform, you sincerely believe you always supported it.",
+    "mechanism": "Reconstructive memory guided by the present state",
+    "robustness_note": "Found in longitudinal studies, for example on political attitudes (Markus, 1986).",
+    "countermeasures": "Keep dated records of your opinions; reread your earlier writing before claiming 'I've always thought that…'."
+   }
+  },
+  {
+   "id": "B021",
+   "n": 21,
+   "process": "P2",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2f",
+    "listed": true
+   },
+   "doi": "10.1006/jesp.1997.1333",
+   "reference": "Mitchell, T. R., Thompson, L., Peterson, E., &amp; Cronk, R. (1997). Temporal adjustments in the evaluation of events: The “rosy view.” <i>Journal of Experimental Social Psychology</i>, <i>33</i>(4), 421–448.",
+   "related": [
+    "B022",
+    "B020",
+    "B097"
+   ],
+   "fr": {
+    "name": "Rétrospection rose",
+    "slug": "retrospection-rose",
+    "definition": "Tendance à se souvenir d'un événement passé de façon plus positive qu'on ne l'a vécu sur le moment.",
+    "example": "Les vacances pluvieuses et les disputes en voiture deviennent « un super voyage » un an plus tard.",
+    "mechanism": "Effacement plus rapide des affects négatifs ; reconstruction narrative",
+    "robustness_note": "Résultats cohérents mais peu d'études ; proche du « biais d'estompage des affects » (fading affect bias), mieux documenté.",
+    "countermeasures": "Tenir un journal sur le moment ; relire un bilan écrit avant de reconduire une expérience."
+   },
+   "en": {
+    "name": "Rosy retrospection",
+    "aka": "",
+    "slug": "rosy-retrospection",
+    "definition": "The tendency to remember a past event more positively than it was experienced at the time.",
+    "example": "A rainy holiday full of arguments in the car becomes 'a great trip' a year later.",
+    "mechanism": "Negative affect fades faster; narrative reconstruction",
+    "robustness_note": "Consistent results but few studies; closely related to the better-documented fading affect bias.",
+    "countermeasures": "Keep a journal in the moment; reread a written review before repeating an experience."
+   }
+  },
+  {
+   "id": "B022",
+   "n": 22,
+   "process": "P2",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C4",
+    "strategy": "C4c",
+    "listed": true
+   },
+   "doi": "10.1111/j.1467-9280.1993.tb00589.x",
+   "reference": "Kahneman, D., Fredrickson, B. L., Schreiber, C. A., &amp; Redelmeier, D. A. (1993). When more pain is preferred to less: Adding a better end. <i>Psychological Science</i>, <i>4</i>(6), 401–405.",
+   "related": [
+    "B012",
+    "B021"
+   ],
+   "fr": {
+    "name": "Règle pic-fin",
+    "slug": "regle-pic-fin",
+    "definition": "Évaluation d'une expérience passée dominée par son moment le plus intense et par sa fin, plutôt que par sa durée totale.",
+    "example": "Un séjour moyen terminé par un excellent dîner laisse un meilleur souvenir qu'un bon séjour qui finit dans les bouchons.",
+    "mechanism": "Évaluation par moments prototypiques ; négligence de la durée",
+    "robustness_note": "Effets du pic et de la fin confirmés par méta-analyse (Alaybek et al., 2022), avec des tailles variables selon les domaines.",
+    "countermeasures": "Mesurer en continu plutôt qu'en fin d'expérience ; soigner la fin d'un parcours usager."
+   },
+   "en": {
+    "name": "Peak-end rule",
+    "aka": "",
+    "slug": "peak-end-rule",
+    "definition": "Evaluating a past experience mainly by its most intense moment and by its end, rather than by its total duration.",
+    "example": "An average stay ending with an excellent dinner leaves a better memory than a good stay that ends in a traffic jam.",
+    "mechanism": "Evaluation by prototypical moments; duration neglect",
+    "robustness_note": "Peak and end effects confirmed by meta-analysis (Alaybek et al., 2022), with sizes varying across domains.",
+    "countermeasures": "Measure continuously rather than at the end of an experience; take care over how a user journey ends."
+   }
+  },
+  {
+   "id": "B023",
+   "n": 23,
+   "process": "P2",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": true
+   },
+   "doi": "10.1037/0003-066X.36.2.129",
+   "reference": "Bower, G. H. (1981). Mood and memory. <i>American Psychologist</i>, <i>36</i>(2), 129–148.",
+   "related": [
+    "B001",
+    "B004"
+   ],
+   "fr": {
+    "name": "Mémoire congruente à l'humeur",
+    "slug": "memoire-congruente-a-l-humeur",
+    "definition": "Tendance à se rappeler plus facilement les informations dont la tonalité émotionnelle correspond à son humeur du moment.",
+    "example": "Un jour de déprime, on se remémore surtout ses échecs passés.",
+    "mechanism": "Réseau associatif émotion-mémoire",
+    "robustness_note": "La congruence à l'humeur est assez robuste, notamment dans la dépression ; la mémoire dépendante de l'humeur (même humeur à l'encodage et au rappel) s'est révélée difficile à répliquer, y compris par Bower lui-même.",
+    "countermeasures": "Reporter les décisions importantes après un épisode émotionnel ; consulter des traces objectives (bilans, notes)."
+   },
+   "en": {
+    "name": "Mood-congruent memory",
+    "aka": "",
+    "slug": "mood-congruent-memory",
+    "definition": "The tendency to recall more easily information whose emotional tone matches one's current mood.",
+    "example": "On a low day, you mostly remember your past failures.",
+    "mechanism": "Associative emotion–memory network",
+    "robustness_note": "Mood congruence is fairly robust, especially in depression; mood-dependent memory (same mood at encoding and recall) has proved hard to replicate, including by Bower himself.",
+    "countermeasures": "Postpone important decisions after an emotional episode; consult objective records (reviews, notes)."
+   }
+  },
+  {
+   "id": "B024",
+   "n": 24,
+   "process": "P2",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2f",
+    "listed": true
+   },
+   "doi": "10.1080/01621459.1964.10480699",
+   "reference": "Neter, J., &amp; Waksberg, J. (1964). A study of response errors in expenditures data from household interviews. <i>Journal of the American Statistical Association</i>, <i>59</i>(305), 18–55.",
+   "related": [
+    "B025",
+    "B090"
+   ],
+   "fr": {
+    "name": "Effet télescope",
+    "slug": "effet-telescope",
+    "definition": "Erreur de datation des souvenirs : les événements anciens semblent plus récents qu'ils ne le sont (et parfois l'inverse).",
+    "example": "Interrogé sur ses achats « des trois derniers mois », on inclut un achat fait il y a cinq mois.",
+    "mechanism": "Accessibilité du souvenir interprétée comme proximité temporelle",
+    "robustness_note": "Bien établi en méthodologie d'enquête ; à prendre en compte dans tout questionnaire rétrospectif.",
+    "countermeasures": "Utiliser des repères temporels (« depuis la rentrée ») ; borner la période par un premier entretien ; recouper avec des données administratives."
+   },
+   "en": {
+    "name": "Telescoping effect",
+    "aka": "",
+    "slug": "telescoping-effect",
+    "definition": "Errors in dating memories: older events seem more recent than they are (and sometimes the reverse).",
+    "example": "Asked about purchases 'in the last three months', you include one made five months ago.",
+    "mechanism": "Accessibility of a memory interpreted as closeness in time",
+    "robustness_note": "Well established in survey methodology; must be taken into account in any retrospective questionnaire.",
+    "countermeasures": "Use time landmarks ('since the start of the school year'); bound the period with an initial interview; cross-check with administrative data."
+   }
+  },
+  {
+   "id": "B025",
+   "n": 25,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": true
+   },
+   "doi": "10.1016/0010-0285(73)90033-9",
+   "reference": "Tversky, A., &amp; Kahneman, D. (1973). Availability: A heuristic for judging frequency and probability. <i>Cognitive Psychology</i>, <i>5</i>(2), 207–232.",
+   "related": [
+    "B006",
+    "B028",
+    "B038",
+    "B024"
+   ],
+   "fr": {
+    "name": "Heuristique de disponibilité",
+    "slug": "heuristique-de-disponibilite",
+    "definition": "Estimation de la fréquence ou de la probabilité d'un événement d'après la facilité avec laquelle des exemples viennent à l'esprit.",
+    "example": "Après un reportage sur un crash, on juge l'avion plus dangereux que la voiture.",
+    "mechanism": "Heuristique de disponibilité : facilité de récupération en mémoire",
+    "robustness_note": "Effet général bien établi ; le rôle de la facilité de rappel (et non du seul nombre d'exemples) a été démontré par Schwarz et al. (1991).",
+    "countermeasures": "Chercher les statistiques de fréquence réelles ; se demander pourquoi un exemple vient si facilement à l'esprit."
+   },
+   "en": {
+    "name": "Availability heuristic",
+    "aka": "",
+    "slug": "availability-heuristic",
+    "definition": "Estimating the frequency or probability of an event by how easily examples come to mind.",
+    "example": "After a news report on a plane crash, flying seems more dangerous than driving.",
+    "mechanism": "Availability heuristic: ease of retrieval from memory",
+    "robustness_note": "A well-established general effect; the role of ease of recall (rather than the mere number of examples) was demonstrated by Schwarz et al. (1991).",
+    "countermeasures": "Look up actual frequency statistics; ask yourself why an example comes to mind so easily."
+   }
+  },
+  {
+   "id": "B026",
+   "n": 26,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2b",
+    "listed": false
+   },
+   "doi": "10.1016/0010-0285(72)90016-3",
+   "reference": "Kahneman, D., &amp; Tversky, A. (1972). Subjective probability: A judgment of representativeness. <i>Cognitive Psychology</i>, <i>3</i>(3), 430–454.",
+   "related": [
+    "B028",
+    "B029",
+    "B031"
+   ],
+   "fr": {
+    "name": "Heuristique de représentativité",
+    "slug": "heuristique-de-representativite",
+    "definition": "Jugement de la probabilité qu'un élément appartienne à une catégorie d'après sa ressemblance avec le prototype de cette catégorie.",
+    "example": "« Calme, lunettes, aime lire : sûrement un bibliothécaire » — alors que les commerciaux sont bien plus nombreux.",
+    "mechanism": "Heuristique de représentativité : similarité au prototype",
+    "robustness_note": "Effet robuste ; son interprétation (erreur ou adaptation à l'environnement) fait débat (Gigerenzer, 1996).",
+    "countermeasures": "Commencer par le taux de base (« combien de cas au départ ? ») ; raisonner en fréquences naturelles."
+   },
+   "en": {
+    "name": "Representativeness heuristic",
+    "aka": "",
+    "slug": "representativeness-heuristic",
+    "definition": "Judging the probability that something belongs to a category by how much it resembles the category's prototype.",
+    "example": "'Quiet, glasses, loves reading: must be a librarian' — although salespeople are far more numerous.",
+    "mechanism": "Representativeness heuristic: similarity to the prototype",
+    "robustness_note": "A robust effect; whether it reflects an error or an adaptation to the environment is debated (Gigerenzer, 1996).",
+    "countermeasures": "Start with the base rate ('how many cases to begin with?'); reason in natural frequencies."
+   }
+  },
+  {
+   "id": "B027",
+   "n": 27,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1c",
+    "listed": true
+   },
+   "doi": "10.1126/science.185.4157.1124",
+   "reference": "Tversky, A., &amp; Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. <i>Science</i>, <i>185</i>(4157), 1124–1131.",
+   "related": [
+    "B007",
+    "B049",
+    "B035"
+   ],
+   "fr": {
+    "name": "Effet d'ancrage",
+    "slug": "effet-d-ancrage",
+    "definition": "Influence d'une valeur initiale, même arbitraire, sur une estimation numérique ultérieure.",
+    "example": "Un prix initial barré à 200 fait paraître « raisonnable » un prix soldé à 120.",
+    "mechanism": "Ajustement insuffisant à partir de l'ancre ; accessibilité sélective",
+    "robustness_note": "Répliqué dans le projet Many Labs (Klein et al., 2014) ; l'ancrage par des nombres réellement aléatoires est plus faible que dans les études originales.",
+    "countermeasures": "Faire sa propre estimation avant de voir un chiffre ; considérer activement des valeurs opposées ; en négociation, faire la première offre."
+   },
+   "en": {
+    "name": "Anchoring effect",
+    "aka": "",
+    "slug": "anchoring-effect",
+    "definition": "The influence of an initial value, even an arbitrary one, on a subsequent numerical estimate.",
+    "example": "An original price of 200, crossed out, makes a sale price of 120 seem 'reasonable'.",
+    "mechanism": "Insufficient adjustment from the anchor; selective accessibility",
+    "robustness_note": "Replicated in the Many Labs project (Klein et al., 2014); anchoring with truly random numbers is weaker than in the original studies.",
+    "countermeasures": "Make your own estimate before seeing a figure; actively consider opposite values; in negotiation, make the first offer."
+   }
+  },
+  {
+   "id": "B028",
+   "n": 28,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": true
+   },
+   "doi": "10.1037/h0034747",
+   "reference": "Kahneman, D., &amp; Tversky, A. (1973). On the psychology of prediction. <i>Psychological Review</i>, <i>80</i>(4), 237–251.",
+   "related": [
+    "B026",
+    "B029",
+    "B038"
+   ],
+   "fr": {
+    "name": "Négligence du taux de base",
+    "slug": "negligence-du-taux-de-base",
+    "definition": "Tendance à ignorer la fréquence de départ d'un phénomène au profit d'informations spécifiques et frappantes.",
+    "example": "Un test fiable à 95 % est positif : on se croit malade, en oubliant que la maladie touche 1 personne sur 1 000.",
+    "mechanism": "Représentativité ; difficulté avec le raisonnement bayésien",
+    "robustness_note": "Robuste avec des probabilités ; fortement réduit avec des fréquences naturelles (Gigerenzer & Hoffrage, 1995).",
+    "countermeasures": "Traduire les pourcentages en fréquences (« sur 1 000 personnes… ») ; dessiner un arbre de décision."
+   },
+   "en": {
+    "name": "Base rate neglect",
+    "aka": "",
+    "slug": "base-rate-neglect",
+    "definition": "The tendency to ignore how common a phenomenon is in favour of specific, vivid information.",
+    "example": "A 95%-accurate test comes back positive and you assume you are ill, forgetting that the disease affects 1 person in 1,000.",
+    "mechanism": "Representativeness; difficulty with Bayesian reasoning",
+    "robustness_note": "Robust with probabilities; strongly reduced with natural frequencies (Gigerenzer & Hoffrage, 1995).",
+    "countermeasures": "Translate percentages into frequencies ('out of 1,000 people…'); draw a decision tree."
+   }
+  },
+  {
+   "id": "B029",
+   "n": 29,
+   "process": "P3",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3e",
+    "listed": true
+   },
+   "doi": "10.1037/0033-295X.90.4.293",
+   "reference": "Tversky, A., &amp; Kahneman, D. (1983). Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment. <i>Psychological Review</i>, <i>90</i>(4), 293–315.",
+   "related": [
+    "B026",
+    "B072",
+    "B028"
+   ],
+   "fr": {
+    "name": "Erreur de conjonction",
+    "slug": "erreur-de-conjonction",
+    "definition": "Juger la conjonction de deux événements plus probable que l'un des deux pris seul.",
+    "example": "« Linda est guichetière et militante féministe » paraît plus probable que « Linda est guichetière ».",
+    "mechanism": "Représentativité : plus de détails = plus de ressemblance",
+    "robustness_note": "Le phénomène se réplique, mais son interprétation est discutée : ambiguïté du mot « probable », forte réduction en format fréquentiel (Hertwig & Gigerenzer, 1999).",
+    "countermeasures": "Se rappeler que chaque détail ajouté réduit la probabilité ; reformuler en fréquences."
+   },
+   "en": {
+    "name": "Conjunction fallacy",
+    "aka": "",
+    "slug": "conjunction-fallacy",
+    "definition": "Judging the conjunction of two events to be more probable than one of them alone.",
+    "example": "'Linda is a bank teller and a feminist activist' seems more probable than 'Linda is a bank teller'.",
+    "mechanism": "Representativeness: more detail = more resemblance",
+    "robustness_note": "The phenomenon replicates, but its interpretation is disputed: ambiguity of the word 'probable', strong reduction in frequency formats (Hertwig & Gigerenzer, 1999).",
+    "countermeasures": "Remember that every added detail reduces probability; rephrase in frequencies."
+   }
+  },
+  {
+   "id": "B030",
+   "n": 30,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2a",
+    "listed": true
+   },
+   "doi": null,
+   "reference": "Laplace, P.-S. (1814). <i>Essai philosophique sur les probabilités</i>. Courcier.",
+   "related": [
+    "B032",
+    "B031",
+    "B095"
+   ],
+   "fr": {
+    "name": "Erreur du joueur",
+    "slug": "erreur-du-joueur",
+    "definition": "Croyance qu'après une série d'événements aléatoires identiques, l'événement inverse devient plus probable.",
+    "example": "« Le rouge est sorti six fois, le noir va forcément tomber. »",
+    "mechanism": "Représentativité : une séquence aléatoire « doit » paraître équilibrée",
+    "robustness_note": "Observé en laboratoire comme sur le terrain, par exemple dans les casinos (Croson & Sundali, 2005) ou les décisions de juges et d'arbitres.",
+    "countermeasures": "Se rappeler que les tirages sont indépendants ; observer des séries aléatoires simulées pour calibrer son intuition."
+   },
+   "en": {
+    "name": "Gambler's fallacy",
+    "aka": "",
+    "slug": "gambler-s-fallacy",
+    "definition": "The belief that after a run of identical random outcomes, the opposite outcome becomes more likely.",
+    "example": "'Red has come up six times in a row, black is bound to come up next.'",
+    "mechanism": "Representativeness: a random sequence 'should' look balanced",
+    "robustness_note": "Observed in the laboratory and in the field, for example in casinos (Croson & Sundali, 2005) and in decisions by judges and umpires.",
+    "countermeasures": "Remember that draws are independent; look at simulated random sequences to calibrate your intuition."
+   }
+  },
+  {
+   "id": "B031",
+   "n": 31,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2a",
+    "listed": true
+   },
+   "doi": "10.1037/h0031322",
+   "reference": "Tversky, A., &amp; Kahneman, D. (1971). Belief in the law of small numbers. <i>Psychological Bulletin</i>, <i>76</i>(2), 105–110.",
+   "related": [
+    "B030",
+    "B032",
+    "B026",
+    "B034"
+   ],
+   "fr": {
+    "name": "Loi des petits nombres",
+    "slug": "loi-des-petits-nombres",
+    "definition": "Croyance qu'un petit échantillon reflète fidèlement la population dont il est tiré.",
+    "example": "L'établissement qui n'a eu que 12 candidats affiche le meilleur taux de réussite… ou le pire.",
+    "mechanism": "Représentativité ; méconnaissance de la variabilité d'échantillonnage",
+    "robustness_note": "Observé même chez des chercheurs, ce qui a nourri la réflexion sur la puissance statistique et la crise de la réplication.",
+    "countermeasures": "Regarder la taille de l'échantillon et les intervalles de confiance ; ne pas classer de petits effectifs ; attendre davantage de données."
+   },
+   "en": {
+    "name": "Law of small numbers",
+    "aka": "insensitivity to sample size",
+    "slug": "law-of-small-numbers",
+    "definition": "The belief that a small sample faithfully reflects the population it is drawn from.",
+    "example": "The institution with only 12 applicants shows the best success rate… or the worst.",
+    "mechanism": "Representativeness; failure to appreciate sampling variability",
+    "robustness_note": "Observed even among researchers, which fed into reflection on statistical power and the replication crisis.",
+    "countermeasures": "Look at sample size and confidence intervals; do not rank small groups; wait for more data."
+   }
+  },
+  {
+   "id": "B032",
+   "n": 32,
+   "process": "P3",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2a",
+    "listed": true
+   },
+   "doi": "10.1016/0010-0285(85)90010-6",
+   "reference": "Gilovich, T., Vallone, R., &amp; Tversky, A. (1985). The hot hand in basketball: On the misperception of random sequences. <i>Cognitive Psychology</i>, <i>17</i>(3), 295–314.",
+   "related": [
+    "B030",
+    "B033",
+    "B031"
+   ],
+   "fr": {
+    "name": "Illusion de la main chaude",
+    "slug": "illusion-de-la-main-chaude",
+    "definition": "Croyance qu'une personne qui vient de réussir plusieurs fois de suite a plus de chances de réussir encore.",
+    "example": "« Elle est en veine, passe-lui le ballon ! »",
+    "mechanism": "Perception de motifs dans le hasard (miroir de l'erreur du joueur) ; illusion des séries",
+    "robustness_note": "Miller et Sanjurjo (2018) ont mis au jour un biais statistique dans l'analyse originale : une légère « main chaude » réelle pourrait exister, même si la croyance populaire reste exagérée.",
+    "countermeasures": "Comparer avec des séquences aléatoires ; juger sur des performances de longue durée."
+   },
+   "en": {
+    "name": "Hot hand fallacy",
+    "aka": "",
+    "slug": "hot-hand-fallacy",
+    "definition": "The belief that someone who has just succeeded several times in a row is more likely to succeed again.",
+    "example": "'She's on fire — pass her the ball!'",
+    "mechanism": "Seeing patterns in randomness (mirror image of the gambler's fallacy); clustering illusion",
+    "robustness_note": "Miller and Sanjurjo (2018) uncovered a statistical bias in the original analysis: a small genuine 'hot hand' may exist, even if the popular belief remains exaggerated.",
+    "countermeasures": "Compare with random sequences; judge on long-run performance."
+   }
+  },
+  {
+   "id": "B033",
+   "n": 33,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2a",
+    "listed": true
+   },
+   "doi": "10.1016/S0022-5371(67)80066-5",
+   "reference": "Chapman, L. J. (1967). Illusory correlation in observational report. <i>Journal of Verbal Learning and Verbal Behavior</i>, <i>6</i>(1), 151–155.",
+   "related": [
+    "B060",
+    "B005",
+    "B032"
+   ],
+   "fr": {
+    "name": "Corrélation illusoire",
+    "slug": "correlation-illusoire",
+    "definition": "Perception d'une relation entre deux variables qui ne sont pas (ou peu) liées.",
+    "example": "« Dès que j'oublie mon parapluie, il pleut. »",
+    "mechanism": "Attention aux co-occurrences saillantes ; négligence des cases « absence » du tableau de contingence",
+    "robustness_note": "Bien répliqué, y compris dans sa version intergroupe qui contribue à la formation des stéréotypes (Hamilton & Gifford, 1976).",
+    "countermeasures": "Remplir les quatre cases du tableau de contingence ; tenir un relevé systématique."
+   },
+   "en": {
+    "name": "Illusory correlation",
+    "aka": "",
+    "slug": "illusory-correlation",
+    "definition": "Perceiving a relationship between two variables that are unrelated (or only weakly related).",
+    "example": "'Every time I forget my umbrella, it rains.'",
+    "mechanism": "Attention to salient co-occurrences; neglect of the 'absent' cells of the contingency table",
+    "robustness_note": "Well replicated, including in its intergroup form, which contributes to stereotype formation (Hamilton & Gifford, 1976).",
+    "countermeasures": "Fill in all four cells of the contingency table; keep a systematic record."
+   }
+  },
+  {
+   "id": "B034",
+   "n": 34,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2d",
+    "listed": true
+   },
+   "doi": "10.1080/01621459.1984.10478038",
+   "reference": "Mangel, M., &amp; Samaniego, F. J. (1984). Abraham Wald's work on aircraft survivability. <i>Journal of the American Statistical Association</i>, <i>79</i>(386), 259–267.",
+   "related": [
+    "B025",
+    "B072",
+    "B031"
+   ],
+   "fr": {
+    "name": "Biais du survivant",
+    "slug": "biais-du-survivant",
+    "definition": "Tirer des conclusions à partir des seuls cas qui ont « survécu » à une sélection, en ignorant ceux qui ont disparu.",
+    "example": "« Les meubles d'autrefois étaient plus solides » : seuls les plus solides sont parvenus jusqu'à nous.",
+    "mechanism": "Échantillon tronqué ; invisibilité des échecs",
+    "robustness_note": "Erreur statistique formellement établie depuis les travaux de Wald sur les avions (1943) ; la propension humaine à la commettre est en revanche peu mesurée expérimentalement.",
+    "countermeasures": "Chercher les cas manquants (abandons, échecs, non-répondants) ; se demander « qui n'apparaît pas dans ces données ? »."
+   },
+   "en": {
+    "name": "Survivorship bias",
+    "aka": "",
+    "slug": "survivorship-bias",
+    "definition": "Drawing conclusions only from the cases that 'survived' a selection process, ignoring those that disappeared.",
+    "example": "'Old furniture was sturdier' — only the sturdiest pieces have lasted until today.",
+    "mechanism": "Truncated sample; invisibility of failures",
+    "robustness_note": "A statistical error formally established since Wald's work on aircraft (1943); people's tendency to commit it is, however, rarely measured experimentally.",
+    "countermeasures": "Look for the missing cases (drop-outs, failures, non-respondents); ask 'who is not in this data?'."
+   }
+  },
+  {
+   "id": "B035",
+   "n": 35,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2f",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.67.3.366",
+   "reference": "Buehler, R., Griffin, D., &amp; Ross, M. (1994). Exploring the “planning fallacy”: Why people underestimate their task completion times. <i>Journal of Personality and Social Psychology</i>, <i>67</i>(3), 366–381.",
+   "related": [
+    "B091",
+    "B036",
+    "B027"
+   ],
+   "fr": {
+    "name": "Erreur de planification",
+    "slug": "erreur-de-planification",
+    "definition": "Tendance à sous-estimer le temps, les coûts et les risques d'une tâche à venir, même en connaissant ses retards passés.",
+    "example": "Le rapport « bouclé en une semaine » prend un mois — comme le précédent.",
+    "mechanism": "Vue de l'intérieur (scénario idéal) ; négligence des données passées",
+    "robustness_note": "Très robuste ; concept proposé par Kahneman et Tversky (1979) et décliné en prévision par classe de référence.",
+    "countermeasures": "Adopter la « vue de l'extérieur » (comparer à des projets similaires) ; ajouter une marge ; découper en sous-tâches datées."
+   },
+   "en": {
+    "name": "Planning fallacy",
+    "aka": "",
+    "slug": "planning-fallacy",
+    "definition": "The tendency to underestimate the time, costs and risks of a future task, even when aware of past overruns.",
+    "example": "The report that will be 'wrapped up in a week' takes a month — just like the last one.",
+    "mechanism": "Inside view (best-case scenario); neglect of past data",
+    "robustness_note": "Very robust; the concept was proposed by Kahneman and Tversky (1979) and developed into reference class forecasting.",
+    "countermeasures": "Take the 'outside view' (compare with similar projects); add a margin; break the task into dated sub-tasks."
+   }
+  },
+  {
+   "id": "B036",
+   "n": 36,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": true
+   },
+   "doi": "10.1037/0096-1523.3.4.552",
+   "reference": "Fischhoff, B., Slovic, P., &amp; Lichtenstein, S. (1977). Knowing with certainty: The appropriateness of extreme confidence. <i>Journal of Experimental Psychology: Human Perception and Performance</i>, <i>3</i>(4), 552–564.",
+   "related": [
+    "B093",
+    "B092",
+    "B035",
+    "B015"
+   ],
+   "fr": {
+    "name": "Excès de confiance",
+    "slug": "exces-de-confiance",
+    "definition": "Tendance à surestimer la justesse de ses jugements et la précision de ses estimations.",
+    "example": "Invité à donner des fourchettes « sûres à 90 % », on se trompe en réalité une fois sur deux.",
+    "mechanism": "Recherche sélective d'arguments favorables ; mauvaise calibration",
+    "robustness_note": "La surprécision est la forme la plus robuste ; la surestimation de soi varie selon la difficulté des tâches (Moore & Healy, 2008).",
+    "countermeasures": "Élargir ses intervalles ; chercher ce qui invaliderait son jugement ; tenir un registre de ses prévisions."
+   },
+   "en": {
+    "name": "Overconfidence",
+    "aka": "overprecision",
+    "slug": "overconfidence",
+    "definition": "The tendency to overestimate the accuracy of one's judgements and the precision of one's estimates.",
+    "example": "Asked for ranges you are '90% sure' of, you turn out to be wrong about half the time.",
+    "mechanism": "Selective search for supporting arguments; poor calibration",
+    "robustness_note": "Overprecision is the most robust form; overestimation of oneself varies with task difficulty (Moore & Healy, 2008).",
+    "countermeasures": "Widen your intervals; look for what would invalidate your judgement; keep a record of your forecasts."
+   }
+  },
+  {
+   "id": "B037",
+   "n": 37,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2a",
+    "listed": false
+   },
+   "doi": "10.1037/h0034747",
+   "reference": "Kahneman, D., &amp; Tversky, A. (1973). On the psychology of prediction. <i>Psychological Review</i>, <i>80</i>(4), 237–251.",
+   "related": [
+    "B095",
+    "B072",
+    "B031"
+   ],
+   "fr": {
+    "name": "Négligence de la régression à la moyenne",
+    "slug": "negligence-de-la-regression-a-la-moyenne",
+    "definition": "Tendance à interpréter comme un effet réel le retour naturel vers la moyenne qui suit une performance extrême.",
+    "example": "Après une très mauvaise note suivie d'un sermon, l'élève progresse : on en conclut que la sévérité « marche ».",
+    "mechanism": "Représentativité ; recherche de causes à un phénomène statistique",
+    "robustness_note": "Bien documenté ; exemple célèbre des instructeurs de vol rapporté par Kahneman, qui croyaient que les réprimandes étaient plus efficaces que les compliments.",
+    "countermeasures": "Comparer à un groupe témoin ; se demander si le point de départ était extrême."
+   },
+   "en": {
+    "name": "Regression to the mean neglect",
+    "aka": "",
+    "slug": "regression-to-the-mean-neglect",
+    "definition": "The tendency to interpret the natural return towards the average after an extreme performance as a real effect.",
+    "example": "After a very poor mark followed by a telling-off, the student improves: you conclude that strictness 'works'.",
+    "mechanism": "Representativeness; looking for causes behind a statistical phenomenon",
+    "robustness_note": "Well documented; famous example of flight instructors reported by Kahneman, who believed reprimands worked better than praise.",
+    "countermeasures": "Compare with a control group; ask whether the starting point was extreme."
+   }
+  },
+  {
+   "id": "B038",
+   "n": 38,
+   "process": "P3",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2a",
+    "listed": true
+   },
+   "doi": "10.1111/1467-9280.00334",
+   "reference": "Rottenstreich, Y., &amp; Hsee, C. K. (2001). Money, kisses, and electric shocks: On the affective psychology of risk. <i>Psychological Science</i>, <i>12</i>(3), 185–190.",
+   "related": [
+    "B039",
+    "B052",
+    "B041"
+   ],
+   "fr": {
+    "name": "Négligence des probabilités",
+    "slug": "negligence-des-probabilites",
+    "definition": "Tendance, face à un enjeu émotionnellement fort, à réagir à la nature de l'issue plutôt qu'à sa probabilité.",
+    "example": "La peur d'un attentat dicte le choix de la destination, quelle que soit la probabilité réelle.",
+    "mechanism": "Heuristique d'affect : l'émotion écrase la pondération des probabilités",
+    "robustness_note": "Concept étendu au droit et aux politiques publiques par Sunstein (2002) ; peu de réplications directes de l'étude originale.",
+    "countermeasures": "Revenir aux chiffres ; comparer à des risques de référence connus."
+   },
+   "en": {
+    "name": "Probability neglect",
+    "aka": "",
+    "slug": "probability-neglect",
+    "definition": "The tendency, when stakes are emotionally charged, to react to the nature of the outcome rather than to its probability.",
+    "example": "Fear of a terrorist attack dictates the choice of destination, whatever its actual probability.",
+    "mechanism": "Affect heuristic: emotion overrides the weighting of probabilities",
+    "robustness_note": "Concept extended to law and public policy by Sunstein (2002); few direct replications of the original study.",
+    "countermeasures": "Go back to the numbers; compare with familiar reference risks."
+   }
+  },
+  {
+   "id": "B039",
+   "n": 39,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2c",
+    "listed": false
+   },
+   "doi": "10.1002/(SICI)1099-0771(200001/03)13:1<1::AID-BDM333>3.0.CO;2-S",
+   "reference": "Finucane, M. L., Alhakami, A., Slovic, P., &amp; Johnson, S. M. (2000). The affect heuristic in judgments of risks and benefits. <i>Journal of Behavioral Decision Making</i>, <i>13</i>(1), 1–17.",
+   "related": [
+    "B038",
+    "B075",
+    "B062"
+   ],
+   "fr": {
+    "name": "Heuristique d'affect",
+    "slug": "heuristique-d-affect",
+    "definition": "Utilisation de son ressenti immédiat (j'aime / je n'aime pas) comme raccourci pour juger risques et bénéfices.",
+    "example": "Une technologie qui inquiète est jugée à la fois très risquée et peu utile ; une technologie qu'on aime paraît sûre et bénéfique.",
+    "mechanism": "Système 1 : l'affect utilisé comme information",
+    "robustness_note": "La corrélation négative entre risques et bénéfices perçus est retrouvée dans de nombreux domaines.",
+    "countermeasures": "Évaluer séparément risques et bénéfices, chiffres à l'appui ; laisser retomber l'émotion avant de décider."
+   },
+   "en": {
+    "name": "Affect heuristic",
+    "aka": "",
+    "slug": "affect-heuristic",
+    "definition": "Using one's immediate feeling (like / dislike) as a shortcut to judge risks and benefits.",
+    "example": "A technology that worries us is judged both very risky and of little use; one we like seems safe and beneficial.",
+    "mechanism": "System 1: affect used as information",
+    "robustness_note": "The negative correlation between perceived risks and benefits has been found in many domains.",
+    "countermeasures": "Assess risks and benefits separately, with figures; let the emotion settle before deciding."
+   }
+  },
+  {
+   "id": "B040",
+   "n": 40,
+   "process": "P3",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2d",
+    "listed": false
+   },
+   "doi": "10.3758/BF03204114",
+   "reference": "Wagenaar, W. A., &amp; Sagaria, S. D. (1975). Misperception of exponential growth. <i>Perception &amp; Psychophysics</i>, <i>18</i>(6), 416–422.",
+   "related": [
+    "B041",
+    "B035"
+   ],
+   "fr": {
+    "name": "Biais de croissance exponentielle",
+    "slug": "biais-de-croissance-exponentielle",
+    "definition": "Tendance à percevoir une croissance exponentielle comme linéaire et donc à sous-estimer fortement ses effets.",
+    "example": "Au début d'une épidémie, « 100 cas, ce n'est rien » ; trois semaines plus tard, ils se comptent par dizaines de milliers.",
+    "mechanism": "Extrapolation linéaire intuitive",
+    "robustness_note": "Retrouvé en finance personnelle (intérêts composés, crédits) et pendant la pandémie de Covid-19.",
+    "countermeasures": "Calculer explicitement (temps de doublement, « règle de 70 ») ; visualiser sur une échelle logarithmique."
+   },
+   "en": {
+    "name": "Exponential growth bias",
+    "aka": "",
+    "slug": "exponential-growth-bias",
+    "definition": "The tendency to perceive exponential growth as linear, and therefore to greatly underestimate its effects.",
+    "example": "At the start of an epidemic, '100 cases is nothing'; three weeks later there are tens of thousands.",
+    "mechanism": "Intuitive linear extrapolation",
+    "robustness_note": "Found in personal finance (compound interest, loans) and during the Covid-19 pandemic.",
+    "countermeasures": "Calculate explicitly (doubling time, 'rule of 70'); plot on a logarithmic scale."
+   }
+  },
+  {
+   "id": "B041",
+   "n": 41,
+   "process": "P3",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2d",
+    "listed": false
+   },
+   "doi": "10.1016/0095-0696(92)90019-S",
+   "reference": "Kahneman, D., &amp; Knetsch, J. L. (1992). Valuing public goods: The purchase of moral satisfaction. <i>Journal of Environmental Economics and Management</i>, <i>22</i>(1), 57–70.",
+   "related": [
+    "B038",
+    "B039",
+    "B040"
+   ],
+   "fr": {
+    "name": "Insensibilité à l'étendue",
+    "slug": "insensibilite-a-l-etendue",
+    "definition": "Tendance à ne pas ajuster sa valorisation à l'ampleur réelle d'un problème.",
+    "example": "On est prêt à donner à peu près la même somme pour sauver 2 000, 20 000 ou 200 000 oiseaux.",
+    "mechanism": "Évaluation par un prototype affectif (un oiseau mazouté) plutôt que par la quantité",
+    "robustness_note": "L'étude des oiseaux de Desvousges et al. (1993) est emblématique ; la sensibilité à l'étendue varie fortement selon les méthodes d'évaluation.",
+    "countermeasures": "Ramener à des unités comparables (coût par personne aidée) ; comparer les options côte à côte."
+   },
+   "en": {
+    "name": "Scope insensitivity",
+    "aka": "",
+    "slug": "scope-insensitivity",
+    "definition": "The failure to adjust one's valuation to the actual size of a problem.",
+    "example": "People are willing to give roughly the same amount to save 2,000, 20,000 or 200,000 birds.",
+    "mechanism": "Valuation by an affective prototype (one oil-covered bird) rather than by quantity",
+    "robustness_note": "The bird study by Desvousges et al. (1993) is emblematic; sensitivity to scope varies greatly with the valuation method.",
+    "countermeasures": "Convert to comparable units (cost per person helped); compare options side by side."
+   }
+  },
+  {
+   "id": "B042",
+   "n": 42,
+   "process": "P4",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3c",
+    "listed": true
+   },
+   "doi": "10.2307/1914185",
+   "reference": "Kahneman, D., &amp; Tversky, A. (1979). Prospect theory: An analysis of decision under risk. <i>Econometrica</i>, <i>47</i>(2), 263–291.",
+   "related": [
+    "B044",
+    "B045",
+    "B043",
+    "B004"
+   ],
+   "fr": {
+    "name": "Aversion à la perte",
+    "slug": "aversion-a-la-perte",
+    "definition": "Tendance à ressentir une perte plus intensément qu'un gain de même valeur.",
+    "example": "Perdre un billet de 50 fait plus mal que trouver le même billet ne fait plaisir.",
+    "mechanism": "Théorie des perspectives : fonction de valeur plus pentue pour les pertes que pour les gains",
+    "robustness_note": "Pilier de l'économie comportementale, mais son ampleur et sa généralité sont discutées (Gal & Rucker, 2018) ; une large réplication internationale de la théorie des perspectives est globalement positive (Ruggeri et al., 2020).",
+    "countermeasures": "Raisonner sur la situation finale plutôt que sur les variations ; regrouper les décisions au lieu de les évaluer une à une."
+   },
+   "en": {
+    "name": "Loss aversion",
+    "aka": "",
+    "slug": "loss-aversion",
+    "definition": "The tendency to feel a loss more intensely than a gain of the same size.",
+    "example": "Losing a 50 note hurts more than finding the same note feels good.",
+    "mechanism": "Prospect theory: the value function is steeper for losses than for gains",
+    "robustness_note": "A cornerstone of behavioural economics, but its size and generality are debated (Gal & Rucker, 2018); a large international replication of prospect theory is broadly positive (Ruggeri et al., 2020).",
+    "countermeasures": "Reason about the final situation rather than changes; bundle decisions instead of evaluating them one by one."
+   }
+  },
+  {
+   "id": "B043",
+   "n": 43,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1c",
+    "listed": true
+   },
+   "doi": "10.1126/science.7455683",
+   "reference": "Tversky, A., &amp; Kahneman, D. (1981). The framing of decisions and the psychology of choice. <i>Science</i>, <i>211</i>(4481), 453–458.",
+   "related": [
+    "B042",
+    "B052",
+    "B046"
+   ],
+   "fr": {
+    "name": "Effet de cadrage",
+    "slug": "effet-de-cadrage",
+    "definition": "Choix différents face à des options identiques selon qu'elles sont présentées en termes de gains ou de pertes.",
+    "example": "Une opération « avec 90 % de survie » rassure davantage qu'une opération « avec 10 % de mortalité ».",
+    "mechanism": "Théorie des perspectives ; déplacement du point de référence",
+    "robustness_note": "Le problème de la « maladie asiatique » a été répliqué dans le projet Many Labs (Klein et al., 2014).",
+    "countermeasures": "Reformuler le problème dans les deux cadres ; présenter les chiffres en valeurs absolues."
+   },
+   "en": {
+    "name": "Framing effect",
+    "aka": "",
+    "slug": "framing-effect",
+    "definition": "Making different choices between identical options depending on whether they are presented as gains or losses.",
+    "example": "An operation 'with a 90% survival rate' is more reassuring than one 'with a 10% mortality rate'.",
+    "mechanism": "Prospect theory; shift of the reference point",
+    "robustness_note": "The 'Asian disease' problem was replicated in the Many Labs project (Klein et al., 2014).",
+    "countermeasures": "Rephrase the problem in both frames; present figures in absolute values."
+   }
+  },
+  {
+   "id": "B044",
+   "n": 44,
+   "process": "P4",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3c",
+    "listed": true
+   },
+   "doi": "10.1086/261737",
+   "reference": "Kahneman, D., Knetsch, J. L., &amp; Thaler, R. H. (1990). Experimental tests of the endowment effect and the Coase theorem. <i>Journal of Political Economy</i>, <i>98</i>(6), 1325–1348.",
+   "related": [
+    "B042",
+    "B045",
+    "B056"
+   ],
+   "fr": {
+    "name": "Effet de dotation",
+    "slug": "effet-de-dotation",
+    "definition": "Tendance à attribuer plus de valeur à un objet du seul fait de le posséder.",
+    "example": "On demande environ deux fois plus pour revendre une tasse qu'on ne serait prêt à payer pour l'acheter.",
+    "mechanism": "Aversion à la perte ; la possession devient le point de référence",
+    "robustness_note": "L'écart entre prix de vente et prix d'achat est fréquent, mais il se réduit fortement, voire disparaît, selon les procédures expérimentales (Plott & Zeiler, 2005).",
+    "countermeasures": "Se demander : « l'achèterais-je à ce prix si je ne l'avais pas ? »."
+   },
+   "en": {
+    "name": "Endowment effect",
+    "aka": "",
+    "slug": "endowment-effect",
+    "definition": "The tendency to value an object more simply because one owns it.",
+    "example": "You ask about twice as much to sell a mug as you would be willing to pay to buy it.",
+    "mechanism": "Loss aversion; ownership becomes the reference point",
+    "robustness_note": "The gap between selling and buying prices is common, but it shrinks sharply or even disappears depending on experimental procedures (Plott & Zeiler, 2005).",
+    "countermeasures": "Ask yourself: 'would I buy it at this price if I didn't already have it?'."
+   }
+  },
+  {
+   "id": "B045",
+   "n": 45,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3d",
+    "listed": true
+   },
+   "doi": "10.1007/BF00055564",
+   "reference": "Samuelson, W., &amp; Zeckhauser, R. (1988). Status quo bias in decision making. <i>Journal of Risk and Uncertainty</i>, <i>1</i>(1), 7–59.",
+   "related": [
+    "B046",
+    "B042",
+    "B054",
+    "B044"
+   ],
+   "fr": {
+    "name": "Biais du statu quo",
+    "slug": "biais-du-statu-quo",
+    "definition": "Préférence pour l'état actuel des choses, toute modification étant perçue comme une perte potentielle.",
+    "example": "On garde le même contrat d'électricité depuis dix ans sans jamais comparer les offres.",
+    "mechanism": "Aversion à la perte ; coût du changement ; regret anticipé",
+    "robustness_note": "Observé dans des choix réels : assurances, plans de retraite, mutuelles.",
+    "countermeasures": "Réexaminer périodiquement ses choix « par défaut » ; imaginer qu'on part de zéro."
+   },
+   "en": {
+    "name": "Status quo bias",
+    "aka": "",
+    "slug": "status-quo-bias",
+    "definition": "A preference for the current state of affairs, any change being perceived as a potential loss.",
+    "example": "You have kept the same electricity contract for ten years without ever comparing offers.",
+    "mechanism": "Loss aversion; cost of switching; anticipated regret",
+    "robustness_note": "Observed in real-world choices: insurance, retirement plans, health plans.",
+    "countermeasures": "Periodically review your 'default' choices; imagine starting from scratch."
+   }
+  },
+  {
+   "id": "B046",
+   "n": 46,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3d",
+    "listed": false
+   },
+   "doi": "10.1126/science.1091721",
+   "reference": "Johnson, E. J., &amp; Goldstein, D. (2003). Do defaults save lives? <i>Science</i>, <i>302</i>(5649), 1338–1339.",
+   "related": [
+    "B045",
+    "B054",
+    "B043"
+   ],
+   "fr": {
+    "name": "Effet de l'option par défaut",
+    "slug": "effet-de-l-option-par-defaut",
+    "definition": "Tendance à conserver l'option présélectionnée.",
+    "example": "Le taux de donneurs d'organes est bien plus élevé dans les pays où il faut se désinscrire que dans ceux où il faut s'inscrire.",
+    "mechanism": "Inertie ; recommandation implicite ; effort de changement",
+    "robustness_note": "Méta-analyse de Jachimowicz et al. (2019) : effet robuste mais très variable selon les domaines.",
+    "countermeasures": "Choisir activement ; en conception de formulaires, choisir les valeurs par défaut de façon éthique (nudge)."
+   },
+   "en": {
+    "name": "Default effect",
+    "aka": "",
+    "slug": "default-effect",
+    "definition": "The tendency to stick with the pre-selected option.",
+    "example": "Organ donation rates are much higher in countries where people must opt out than in those where they must opt in.",
+    "mechanism": "Inertia; implicit recommendation; effort of switching",
+    "robustness_note": "Meta-analysis by Jachimowicz et al. (2019): a robust effect, but highly variable across domains.",
+    "countermeasures": "Choose actively; when designing forms, set defaults ethically (nudging)."
+   }
+  },
+  {
+   "id": "B047",
+   "n": 47,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3c",
+    "listed": true
+   },
+   "doi": "10.1016/0749-5978(85)90049-4",
+   "reference": "Arkes, H. R., &amp; Blumer, C. (1985). The psychology of sunk cost. <i>Organizational Behavior and Human Decision Processes</i>, <i>35</i>(1), 124–140.",
+   "related": [
+    "B048",
+    "B042",
+    "B096"
+   ],
+   "fr": {
+    "name": "Biais des coûts irrécupérables",
+    "slug": "biais-des-couts-irrecuperables",
+    "definition": "Tendance à poursuivre un engagement en raison des ressources déjà investies plutôt que des bénéfices à venir.",
+    "example": "On reste jusqu'au bout d'un film ennuyeux parce que la place a été payée.",
+    "mechanism": "Aversion à la perte ; refus du « gaspillage »",
+    "robustness_note": "Les scénarios d'Arkes et Blumer se répliquent bien ; l'effet en situation réelle et incitée est plus discuté (Friedman et al., 2007).",
+    "countermeasures": "Ne considérer que les coûts et bénéfices à venir ; fixer à l'avance des points d'arrêt."
+   },
+   "en": {
+    "name": "Sunk cost fallacy",
+    "aka": "",
+    "slug": "sunk-cost-fallacy",
+    "definition": "The tendency to continue a commitment because of the resources already invested rather than the benefits to come.",
+    "example": "You sit through a boring film to the end because you have paid for the ticket.",
+    "mechanism": "Loss aversion; reluctance to 'waste'",
+    "robustness_note": "Arkes and Blumer's scenarios replicate well; the effect in real, incentivised situations is more debated (Friedman et al., 2007).",
+    "countermeasures": "Consider only future costs and benefits; set stopping points in advance."
+   }
+  },
+  {
+   "id": "B048",
+   "n": 48,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3c",
+    "listed": true
+   },
+   "doi": "10.1016/0030-5073(76)90005-2",
+   "reference": "Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. <i>Organizational Behavior and Human Performance</i>, <i>16</i>(1), 27–44.",
+   "related": [
+    "B047",
+    "B096",
+    "B061"
+   ],
+   "fr": {
+    "name": "Escalade de l'engagement",
+    "slug": "escalade-de-l-engagement",
+    "definition": "Tendance à réinvestir dans une décision qui échoue pour justifier ses choix antérieurs.",
+    "example": "Un service continue de financer un logiciel inadapté parce qu'il a lui-même choisi de le développer.",
+    "mechanism": "Autojustification ; responsabilité personnelle dans la décision initiale",
+    "robustness_note": "Méta-analyse de Sleesman et al. (2012).",
+    "countermeasures": "Séparer la personne qui a décidé de celle qui évalue ; définir des critères d'abandon dès le lancement."
+   },
+   "en": {
+    "name": "Escalation of commitment",
+    "aka": "",
+    "slug": "escalation-of-commitment",
+    "definition": "The tendency to keep investing in a failing decision in order to justify one's earlier choices.",
+    "example": "A department keeps funding unsuitable software because it chose to develop it in the first place.",
+    "mechanism": "Self-justification; personal responsibility for the initial decision",
+    "robustness_note": "Meta-analysis by Sleesman et al. (2012).",
+    "countermeasures": "Separate the person who decided from the person who evaluates; set exit criteria at the outset."
+   }
+  },
+  {
+   "id": "B049",
+   "n": 49,
+   "process": "P4",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3d",
+    "listed": true
+   },
+   "doi": "10.1086/208899",
+   "reference": "Huber, J., Payne, J. W., &amp; Puto, C. (1982). Adding asymmetrically dominated alternatives: Violations of regularity and the similarity hypothesis. <i>Journal of Consumer Research</i>, <i>9</i>(1), 90–98.",
+   "related": [
+    "B007",
+    "B027",
+    "B050"
+   ],
+   "fr": {
+    "name": "Effet de leurre",
+    "slug": "effet-de-leurre",
+    "definition": "Modification des préférences entre deux options par l'ajout d'une troisième, nettement inférieure à l'une d'elles.",
+    "example": "Un pop-corn moyen à 6,50 rend le grand à 7 irrésistible face au petit à 3.",
+    "mechanism": "Comparaison relative ; recherche d'une justification facile du choix",
+    "robustness_note": "Effet net avec des descriptions chiffrées, beaucoup plus faible lorsque les options sont présentées de façon réaliste ou visuelle (Frederick et al., 2014). L'effet de compromis (choisir l'option du milieu) en est proche.",
+    "countermeasures": "Évaluer chaque option selon ses besoins réels ; retirer mentalement l'option qu'on ne choisira jamais."
+   },
+   "en": {
+    "name": "Decoy effect",
+    "aka": "asymmetric dominance",
+    "slug": "decoy-effect",
+    "definition": "A shift in preference between two options when a third option, clearly inferior to one of them, is added.",
+    "example": "A medium popcorn at 6.50 makes the large at 7 irresistible compared with the small at 3.",
+    "mechanism": "Relative comparison; looking for an easy justification of the choice",
+    "robustness_note": "A clear effect with numerical descriptions, much weaker when options are presented realistically or visually (Frederick et al., 2014). The compromise effect (choosing the middle option) is closely related.",
+    "countermeasures": "Assess each option against your actual needs; mentally remove the option you would never choose."
+   }
+  },
+  {
+   "id": "B050",
+   "n": 50,
+   "process": "P4",
+   "robustness": "fragile",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3e",
+    "listed": false
+   },
+   "doi": "10.1037/0022-3514.79.6.995",
+   "reference": "Iyengar, S. S., &amp; Lepper, M. R. (2000). When choice is demotivating: Can one desire too much of a good thing? <i>Journal of Personality and Social Psychology</i>, <i>79</i>(6), 995–1006.",
+   "related": [
+    "B049",
+    "B045"
+   ],
+   "fr": {
+    "name": "Surcharge de choix",
+    "slug": "surcharge-de-choix",
+    "definition": "Hypothèse selon laquelle un trop grand nombre d'options réduit la motivation à choisir et la satisfaction.",
+    "example": "Face à 24 confitures, moins de clients achètent que face à 6.",
+    "mechanism": "Coût cognitif de la comparaison ; regret anticipé",
+    "robustness_note": "Méta-analyse de Scheibehenne et al. (2010) : effet moyen proche de zéro ; Chernev et al. (2015) identifient des conditions où il apparaît (choix complexe, préférences floues).",
+    "countermeasures": "Fixer ses critères avant de comparer ; présélectionner trois options ; accepter le « suffisamment bien »."
+   },
+   "en": {
+    "name": "Choice overload",
+    "aka": "",
+    "slug": "choice-overload",
+    "definition": "The hypothesis that too many options reduce motivation to choose and satisfaction with the choice.",
+    "example": "Faced with 24 jams, fewer customers buy than when faced with 6.",
+    "mechanism": "Cognitive cost of comparison; anticipated regret",
+    "robustness_note": "Meta-analysis by Scheibehenne et al. (2010): average effect close to zero; Chernev et al. (2015) identify conditions under which it appears (complex choices, unclear preferences).",
+    "countermeasures": "Set your criteria before comparing; shortlist three options; accept 'good enough'."
+   }
+  },
+  {
+   "id": "B051",
+   "n": 51,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3b",
+    "listed": true
+   },
+   "doi": "10.1037/h0076860",
+   "reference": "Ainslie, G. (1975). Specious reward: A behavioral theory of impulsiveness and impulse control. <i>Psychological Bulletin</i>, <i>82</i>(4), 463–496.",
+   "related": [
+    "B091",
+    "B035",
+    "B098"
+   ],
+   "fr": {
+    "name": "Actualisation hyperbolique",
+    "slug": "actualisation-hyperbolique",
+    "definition": "Préférence disproportionnée pour les récompenses immédiates, qui s'inverse lorsque les deux options sont éloignées dans le temps.",
+    "example": "On préfère recevoir 50 aujourd'hui plutôt que 60 dans un mois, mais 60 dans 13 mois plutôt que 50 dans 12 mois.",
+    "mechanism": "Courbe d'actualisation hyperbolique ; incohérence temporelle des préférences",
+    "robustness_note": "Bien établi chez l'humain et l'animal ; la forme exacte de la courbe reste discutée.",
+    "countermeasures": "Dispositifs d'engagement (épargne automatique) ; rendre les bénéfices futurs concrets ; décider à froid."
+   },
+   "en": {
+    "name": "Hyperbolic discounting",
+    "aka": "present bias",
+    "slug": "hyperbolic-discounting",
+    "definition": "A disproportionate preference for immediate rewards, which reverses when both options lie further in the future.",
+    "example": "You prefer 50 today to 60 in a month, but 60 in 13 months to 50 in 12 months.",
+    "mechanism": "Hyperbolic discount curve; time-inconsistent preferences",
+    "robustness_note": "Well established in humans and animals; the exact shape of the curve is still debated.",
+    "countermeasures": "Commitment devices (automatic saving); make future benefits concrete; decide in a calm state."
+   }
+  },
+  {
+   "id": "B052",
+   "n": 52,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3c",
+    "listed": false
+   },
+   "doi": "10.2307/1914185",
+   "reference": "Kahneman, D., &amp; Tversky, A. (1979). Prospect theory: An analysis of decision under risk. <i>Econometrica</i>, <i>47</i>(2), 263–291.",
+   "related": [
+    "B053",
+    "B043",
+    "B038"
+   ],
+   "fr": {
+    "name": "Effet de certitude",
+    "slug": "effet-de-certitude",
+    "definition": "Surpondération des issues certaines par rapport aux issues seulement probables.",
+    "example": "On préfère un gain sûr de 3 000 à 80 % de chances d'en gagner 4 000, mais on inverse son choix quand les deux probabilités sont divisées par quatre.",
+    "mechanism": "Théorie des perspectives : pondération non linéaire des probabilités",
+    "robustness_note": "Retrouvé dans la réplication internationale de Ruggeri et al. (2020) ; proche du paradoxe d'Allais (1953).",
+    "countermeasures": "Calculer l'espérance ; se demander si la « certitude » justifie ce qu'elle coûte."
+   },
+   "en": {
+    "name": "Certainty effect",
+    "aka": "",
+    "slug": "certainty-effect",
+    "definition": "Overweighting certain outcomes relative to outcomes that are merely probable.",
+    "example": "You prefer a sure gain of 3,000 to an 80% chance of winning 4,000, but reverse your choice when both probabilities are divided by four.",
+    "mechanism": "Prospect theory: non-linear probability weighting",
+    "robustness_note": "Found in the international replication by Ruggeri et al. (2020); related to the Allais paradox (1953).",
+    "countermeasures": "Calculate the expected value; ask whether 'certainty' is worth what it costs."
+   }
+  },
+  {
+   "id": "B053",
+   "n": 53,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3e",
+    "listed": true
+   },
+   "doi": "10.2307/1884324",
+   "reference": "Ellsberg, D. (1961). Risk, ambiguity, and the Savage axioms. <i>Quarterly Journal of Economics</i>, <i>75</i>(4), 643–669.",
+   "related": [
+    "B052",
+    "B045"
+   ],
+   "fr": {
+    "name": "Aversion à l'ambiguïté",
+    "slug": "aversion-a-l-ambiguite",
+    "definition": "Préférence pour un risque aux probabilités connues plutôt que pour un risque aux probabilités inconnues.",
+    "example": "On préfère parier sur une urne de 50 boules rouges et 50 noires plutôt que sur une urne de composition inconnue.",
+    "mechanism": "Inconfort face à l'information manquante",
+    "robustness_note": "Paradoxe d'Ellsberg bien répliqué, avec des variations (recherche d'ambiguïté pour des gains peu probables).",
+    "countermeasures": "Estimer une fourchette de probabilités plutôt que fuir l'inconnu ; chercher l'information manquante si elle est accessible."
+   },
+   "en": {
+    "name": "Ambiguity aversion",
+    "aka": "",
+    "slug": "ambiguity-aversion",
+    "definition": "A preference for a risk with known probabilities over one with unknown probabilities.",
+    "example": "You would rather bet on an urn with 50 red and 50 black balls than on one of unknown composition.",
+    "mechanism": "Discomfort with missing information",
+    "robustness_note": "The Ellsberg paradox is well replicated, with variations (ambiguity seeking for unlikely gains).",
+    "countermeasures": "Estimate a range of probabilities rather than avoiding the unknown; seek out the missing information if it is accessible."
+   }
+  },
+  {
+   "id": "B054",
+   "n": 54,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": true
+   },
+   "doi": "10.1016/0022-1031(91)90011-T",
+   "reference": "Spranca, M., Minsk, E., &amp; Baron, J. (1991). Omission and commission in judgment and choice. <i>Journal of Experimental Social Psychology</i>, <i>27</i>(1), 76–105.",
+   "related": [
+    "B045",
+    "B046",
+    "B057"
+   ],
+   "fr": {
+    "name": "Biais d'omission",
+    "slug": "biais-d-omission",
+    "definition": "Tendance à juger un dommage causé par une action plus grave qu'un dommage équivalent causé par une inaction.",
+    "example": "Des parents hésitent à vacciner par peur d'un effet secondaire rare, alors que ne pas vacciner expose à un risque plus élevé.",
+    "mechanism": "Responsabilité perçue ; regret anticipé",
+    "robustness_note": "Exemple de la vaccination étudié par Ritov et Baron (1990) ; effet retrouvé dans les jugements moraux et juridiques.",
+    "countermeasures": "Comparer explicitement les conséquences de l'action et de l'inaction : ne rien faire est aussi un choix."
+   },
+   "en": {
+    "name": "Omission bias",
+    "aka": "",
+    "slug": "omission-bias",
+    "definition": "The tendency to judge harm caused by an action as worse than equivalent harm caused by inaction.",
+    "example": "Parents hesitate to vaccinate for fear of a rare side effect, although not vaccinating carries a higher risk.",
+    "mechanism": "Perceived responsibility; anticipated regret",
+    "robustness_note": "The vaccination example was studied by Ritov and Baron (1990); the effect is found in moral and legal judgements.",
+    "countermeasures": "Explicitly compare the consequences of acting and not acting: doing nothing is also a choice."
+   }
+  },
+  {
+   "id": "B055",
+   "n": 55,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2d",
+    "listed": true
+   },
+   "doi": "10.1287/mksc.4.3.199",
+   "reference": "Thaler, R. H. (1985). Mental accounting and consumer choice. <i>Marketing Science</i>, <i>4</i>(3), 199–214.",
+   "related": [
+    "B043",
+    "B047",
+    "B100"
+   ],
+   "fr": {
+    "name": "Comptabilité mentale",
+    "slug": "comptabilite-mentale",
+    "definition": "Tendance à répartir l'argent dans des « comptes » mentaux séparés selon son origine ou son usage, au lieu de le considérer comme interchangeable.",
+    "example": "On dépense sans compter un remboursement « tombé du ciel » tout en gardant un crédit à la consommation coûteux.",
+    "mechanism": "Catégorisation ; cadrage des gains et des pertes",
+    "robustness_note": "Nombreuses observations de terrain ; notion fondatrice de l'économie comportementale.",
+    "countermeasures": "Raisonner sur le budget global : un euro vaut un euro, quelle que soit sa provenance."
+   },
+   "en": {
+    "name": "Mental accounting",
+    "aka": "",
+    "slug": "mental-accounting",
+    "definition": "The tendency to place money in separate mental 'accounts' according to its source or intended use, instead of treating it as interchangeable.",
+    "example": "You spend a windfall refund freely while keeping an expensive consumer loan.",
+    "mechanism": "Categorisation; framing of gains and losses",
+    "robustness_note": "Numerous field observations; a founding concept of behavioural economics.",
+    "countermeasures": "Think in terms of your overall budget: money is money, wherever it comes from."
+   }
+  },
+  {
+   "id": "B056",
+   "n": 56,
+   "process": "P4",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3c",
+    "listed": true
+   },
+   "doi": "10.1016/j.jcps.2011.08.002",
+   "reference": "Norton, M. I., Mochon, D., &amp; Ariely, D. (2012). The IKEA effect: When labor leads to love. <i>Journal of Consumer Psychology</i>, <i>22</i>(3), 453–460.",
+   "related": [
+    "B044",
+    "B047",
+    "B096"
+   ],
+   "fr": {
+    "name": "Effet IKEA",
+    "slug": "effet-ikea",
+    "definition": "Tendance à surévaluer ce qu'on a soi-même construit ou assemblé.",
+    "example": "On trouve sa bibliothèque montée soi-même plus belle que le modèle d'exposition identique.",
+    "mechanism": "Effort investi ; sentiment de compétence",
+    "robustness_note": "Quelques réplications conceptuelles, mais tailles d'effet modestes ; l'effet disparaît si la tâche n'est pas menée à terme.",
+    "countermeasures": "Faire évaluer son travail par des pairs ; tester son outil auprès d'utilisateurs extérieurs."
+   },
+   "en": {
+    "name": "IKEA effect",
+    "aka": "",
+    "slug": "ikea-effect",
+    "definition": "The tendency to overvalue things one has built or assembled oneself.",
+    "example": "You find the bookcase you assembled yourself nicer than the identical display model.",
+    "mechanism": "Effort invested; sense of competence",
+    "robustness_note": "A few conceptual replications, but modest effect sizes; the effect disappears if the task is not completed.",
+    "countermeasures": "Have your work assessed by peers; test your tool with outside users."
+   }
+  },
+  {
+   "id": "B057",
+   "n": 57,
+   "process": "P4",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": false
+   },
+   "doi": "10.1016/j.joep.2006.12.001",
+   "reference": "Bar-Eli, M., Azar, O. H., Ritov, I., Keidar-Levin, Y., &amp; Schein, G. (2007). Action bias among elite soccer goalkeepers: The case of penalty kicks. <i>Journal of Economic Psychology</i>, <i>28</i>(5), 606–621.",
+   "related": [
+    "B054",
+    "B095"
+   ],
+   "fr": {
+    "name": "Biais d'action",
+    "slug": "biais-d-action",
+    "definition": "Tendance à préférer agir plutôt qu'attendre, même quand l'inaction serait plus avantageuse.",
+    "example": "Les gardiens de but plongent presque toujours sur un penalty, alors que rester au centre arrêterait plus de tirs.",
+    "mechanism": "Norme sociale de l'action ; regret anticipé de l'inaction",
+    "robustness_note": "Une étude de terrain fondatrice, peu de réplications ; il coexiste avec le biais d'omission selon les contextes.",
+    "countermeasures": "Évaluer explicitement l'option « ne rien faire » ; temporiser quand rien n'est urgent."
+   },
+   "en": {
+    "name": "Action bias",
+    "aka": "",
+    "slug": "action-bias",
+    "definition": "The tendency to prefer acting over waiting, even when inaction would be more advantageous.",
+    "example": "Goalkeepers almost always dive on a penalty, although staying in the centre would stop more shots.",
+    "mechanism": "Social norm of action; anticipated regret of inaction",
+    "robustness_note": "One founding field study, few replications; it coexists with omission bias depending on the context.",
+    "countermeasures": "Explicitly assess the 'do nothing' option; hold off when nothing is urgent."
+   }
+  },
+  {
+   "id": "B058",
+   "n": 58,
+   "process": "P4",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3d",
+    "listed": false
+   },
+   "doi": "10.1037/xge0000033",
+   "reference": "Dietvorst, B. J., Simmons, J. P., &amp; Massey, C. (2015). Algorithm aversion: People erroneously avoid algorithms after seeing them err. <i>Journal of Experimental Psychology: General</i>, <i>144</i>(1), 114–126.",
+   "related": [
+    "B011",
+    "B036"
+   ],
+   "fr": {
+    "name": "Aversion aux algorithmes",
+    "slug": "aversion-aux-algorithmes",
+    "definition": "Tendance à perdre confiance plus vite dans un algorithme que dans un humain après l'avoir vu se tromper.",
+    "example": "Après une erreur de l'outil de prévision, on revient à son estimation « au doigt mouillé », pourtant moins fiable.",
+    "mechanism": "Attente de perfection envers la machine",
+    "robustness_note": "Effet dépendant du contexte : d'autres travaux observent au contraire une préférence pour les algorithmes (Logg et al., 2019).",
+    "countermeasures": "Comparer les taux d'erreur réels de l'humain et de l'outil ; autoriser un ajustement humain limité de la prédiction."
+   },
+   "en": {
+    "name": "Algorithm aversion",
+    "aka": "",
+    "slug": "algorithm-aversion",
+    "definition": "The tendency to lose confidence in an algorithm faster than in a human after seeing it make a mistake.",
+    "example": "After the forecasting tool gets it wrong once, you go back to your own gut estimate, which is less reliable.",
+    "mechanism": "Expectation of perfection from machines",
+    "robustness_note": "Context-dependent: other studies find the opposite, a preference for algorithms (Logg et al., 2019).",
+    "countermeasures": "Compare the actual error rates of the human and the tool; allow limited human adjustment of the prediction."
+   }
+  },
+  {
+   "id": "B059",
+   "n": 59,
+   "process": "P4",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3d",
+    "listed": false
+   },
+   "doi": "10.1037/0022-3514.32.5.906",
+   "reference": "Worchel, S., Lee, J., &amp; Adewole, A. (1975). Effects of supply and demand on ratings of object value. <i>Journal of Personality and Social Psychology</i>, <i>32</i>(5), 906–914.",
+   "related": [
+    "B042",
+    "B088"
+   ],
+   "fr": {
+    "name": "Effet de rareté",
+    "slug": "effet-de-rarete",
+    "definition": "Tendance à attribuer plus de valeur à ce qui est rare ou disponible en quantité limitée.",
+    "example": "« Plus que 2 chambres à ce prix ! » pousse à réserver immédiatement.",
+    "mechanism": "Rareté interprétée comme indice de valeur ; réactance face à la perte de liberté",
+    "robustness_note": "Expérience des bocaux de biscuits ; méta-analyse de Lynn (1991).",
+    "countermeasures": "Se demander si on voudrait l'objet sans la limitation ; se méfier des comptes à rebours commerciaux."
+   },
+   "en": {
+    "name": "Scarcity effect",
+    "aka": "",
+    "slug": "scarcity-effect",
+    "definition": "The tendency to place more value on what is rare or available in limited quantities.",
+    "example": "'Only 2 rooms left at this price!' prompts you to book immediately.",
+    "mechanism": "Scarcity as a cue to value; reactance to lost freedom",
+    "robustness_note": "The cookie-jar experiment; meta-analysis by Lynn (1991).",
+    "countermeasures": "Ask whether you would want the item without the limitation; be wary of commercial countdowns."
+   }
+  },
+  {
+   "id": "B060",
+   "n": 60,
+   "process": "P5",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1d",
+    "listed": true
+   },
+   "doi": "10.1080/17470216008416717",
+   "reference": "Wason, P. C. (1960). On the failure to eliminate hypotheses in a conceptual task. <i>Quarterly Journal of Experimental Psychology</i>, <i>12</i>(3), 129–140.",
+   "related": [
+    "B062",
+    "B063",
+    "B061",
+    "B033"
+   ],
+   "fr": {
+    "name": "Biais de confirmation",
+    "slug": "biais-de-confirmation",
+    "definition": "Tendance à rechercher, interpréter et retenir les informations qui confirment ses croyances ou hypothèses préexistantes.",
+    "example": "Persuadée qu'un collègue est négligent, on remarque chacun de ses retards et on oublie ses dossiers rendus à temps.",
+    "mechanism": "Stratégie de test positif ; économie cognitive",
+    "robustness_note": "Un des biais les plus documentés (synthèse : Nickerson, 1998).",
+    "countermeasures": "Chercher activement ce qui réfuterait son hypothèse ; désigner un « avocat du diable » ; tester plusieurs hypothèses concurrentes."
+   },
+   "en": {
+    "name": "Confirmation bias",
+    "aka": "",
+    "slug": "confirmation-bias",
+    "definition": "The tendency to seek, interpret and remember information that confirms one's existing beliefs or hypotheses.",
+    "example": "Convinced that a colleague is careless, you notice every time they are late and forget the files they delivered on time.",
+    "mechanism": "Positive test strategy; cognitive economy",
+    "robustness_note": "One of the most thoroughly documented biases (review: Nickerson, 1998).",
+    "countermeasures": "Actively look for what would refute your hypothesis; appoint a devil's advocate; test several competing hypotheses."
+   }
+  },
+  {
+   "id": "B061",
+   "n": 61,
+   "process": "P5",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1d",
+    "listed": false
+   },
+   "doi": "10.1037/0022-3514.32.5.880",
+   "reference": "Ross, L., Lepper, M. R., &amp; Hubbard, M. (1975). Perseverance in self-perception and social perception: Biased attributional processes in the debriefing paradigm. <i>Journal of Personality and Social Psychology</i>, <i>32</i>(5), 880–892.",
+   "related": [
+    "B060",
+    "B064",
+    "B013"
+   ],
+   "fr": {
+    "name": "Persévérance des croyances",
+    "slug": "perseverance-des-croyances",
+    "definition": "Maintien d'une croyance même après que les preuves qui la fondaient ont été discréditées.",
+    "example": "Après avoir appris qu'une étude sur un aliment miracle était frauduleuse, on continue d'en acheter.",
+    "mechanism": "Les explications causales construites survivent à la disparition des preuves",
+    "robustness_note": "Effet bien établi ; il s'atténue lorsqu'on fait expliquer la position inverse.",
+    "countermeasures": "Expliquer pourquoi l'inverse pourrait être vrai ; corriger en fournissant une explication alternative, pas seulement un démenti."
+   },
+   "en": {
+    "name": "Belief perseverance",
+    "aka": "",
+    "slug": "belief-perseverance",
+    "definition": "Holding on to a belief even after the evidence on which it was based has been discredited.",
+    "example": "After learning that a study on a miracle food was fraudulent, you keep buying it.",
+    "mechanism": "Causal explanations, once built, outlive the evidence",
+    "robustness_note": "A well-established effect; it weakens when people are asked to explain the opposite position.",
+    "countermeasures": "Explain why the opposite might be true; correct by offering an alternative explanation, not just a denial."
+   }
+  },
+  {
+   "id": "B062",
+   "n": 62,
+   "process": "P5",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1d",
+    "listed": false
+   },
+   "doi": "10.1037/0033-2909.108.3.480",
+   "reference": "Kunda, Z. (1990). The case for motivated reasoning. <i>Psychological Bulletin</i>, <i>108</i>(3), 480–498.",
+   "related": [
+    "B060",
+    "B063",
+    "B096"
+   ],
+   "fr": {
+    "name": "Raisonnement motivé",
+    "slug": "raisonnement-motive",
+    "definition": "Tendance à évaluer les arguments selon qu'ils mènent ou non à la conclusion qu'on souhaite.",
+    "example": "Un supporter trouve évidente la faute commise contre son équipe et discutable celle commise par son équipe.",
+    "mechanism": "But directionnel ; exigence de preuve asymétrique",
+    "robustness_note": "Cadre largement soutenu ; la part de la motivation et celle des croyances antérieures restent difficiles à séparer (Tappin et al., 2020).",
+    "countermeasures": "Appliquer le même niveau d'exigence aux deux camps ; se demander ce qu'on penserait si la conclusion était inverse."
+   },
+   "en": {
+    "name": "Motivated reasoning",
+    "aka": "",
+    "slug": "motivated-reasoning",
+    "definition": "The tendency to evaluate arguments according to whether or not they lead to the conclusion one wants.",
+    "example": "A fan finds the foul against their team obvious and the one committed by their team debatable.",
+    "mechanism": "Directional goal; asymmetric standard of evidence",
+    "robustness_note": "A widely supported framework; the respective roles of motivation and prior beliefs remain hard to separate (Tappin et al., 2020).",
+    "countermeasures": "Apply the same standard of evidence to both sides; ask what you would think if the conclusion were the opposite."
+   }
+  },
+  {
+   "id": "B063",
+   "n": 63,
+   "process": "P5",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1d",
+    "listed": false
+   },
+   "doi": "10.1037/0022-3514.37.11.2098",
+   "reference": "Lord, C. G., Ross, L., &amp; Lepper, M. R. (1979). Biased assimilation and attitude polarization: The effects of prior theories on subsequently considered evidence. <i>Journal of Personality and Social Psychology</i>, <i>37</i>(11), 2098–2109.",
+   "related": [
+    "B060",
+    "B062",
+    "B064"
+   ],
+   "fr": {
+    "name": "Assimilation biaisée",
+    "slug": "assimilation-biaisee",
+    "definition": "Tendance à juger plus convaincantes les études qui vont dans le sens de son opinion et à critiquer celles qui la contredisent.",
+    "example": "Partisans et opposants à la peine de mort lisent les mêmes études et en ressortent chacun confortés.",
+    "mechanism": "Raisonnement motivé ; examen asymétrique des preuves",
+    "robustness_note": "L'évaluation biaisée des preuves se réplique ; la polarisation des attitudes qui en découlerait, beaucoup moins (Guess & Coppock, 2020).",
+    "countermeasures": "Évaluer la méthode avant de lire les résultats ; appliquer la même grille de lecture critique à toutes les études."
+   },
+   "en": {
+    "name": "Biased assimilation",
+    "aka": "",
+    "slug": "biased-assimilation",
+    "definition": "The tendency to find studies that support one's opinion more convincing and to criticise those that contradict it.",
+    "example": "Supporters and opponents of the death penalty read the same studies and each come away reassured.",
+    "mechanism": "Motivated reasoning; asymmetric scrutiny of evidence",
+    "robustness_note": "Biased evaluation of evidence replicates; the resulting attitude polarisation much less so (Guess & Coppock, 2020).",
+    "countermeasures": "Assess the method before reading the results; apply the same critical-reading grid to every study."
+   }
+  },
+  {
+   "id": "B064",
+   "n": 64,
+   "process": "P5",
+   "robustness": "fragile",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3c",
+    "listed": true
+   },
+   "doi": "10.1007/s11109-010-9112-2",
+   "reference": "Nyhan, B., &amp; Reifler, J. (2010). When corrections fail: The persistence of political misperceptions. <i>Political Behavior</i>, <i>32</i>(2), 303–330.",
+   "related": [
+    "B061",
+    "B062",
+    "B063"
+   ],
+   "fr": {
+    "name": "Effet retour de flamme",
+    "slug": "effet-retour-de-flamme",
+    "definition": "Hypothèse selon laquelle une correction factuelle renforcerait la croyance erronée qu'elle vise.",
+    "example": "Montrer un démenti officiel conforterait l'interlocuteur dans sa théorie.",
+    "mechanism": "Réaction identitaire ; raisonnement motivé",
+    "robustness_note": "Les réplications à grande échelle retrouvent rarement l'effet : les corrections réduisent en général les croyances erronées (Wood & Porter, 2019).",
+    "countermeasures": "Corriger quand même, en donnant une explication alternative ; éviter de répéter le mythe en premier ; ménager l'amour-propre de l'interlocuteur."
+   },
+   "en": {
+    "name": "Backfire effect",
+    "aka": "",
+    "slug": "backfire-effect",
+    "definition": "The hypothesis that a factual correction strengthens the false belief it targets.",
+    "example": "Showing someone an official denial would supposedly confirm their theory.",
+    "mechanism": "Identity-based reaction; motivated reasoning",
+    "robustness_note": "Large-scale replications rarely find the effect: corrections generally reduce false beliefs (Wood & Porter, 2019).",
+    "countermeasures": "Correct anyway, offering an alternative explanation; avoid stating the myth first; let the other person save face."
+   }
+  },
+  {
+   "id": "B065",
+   "n": 65,
+   "process": "P5",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3e",
+    "listed": true
+   },
+   "doi": "10.3758/BF03196976",
+   "reference": "Evans, J. St. B. T., Barston, J. L., &amp; Pollard, P. (1983). On the conflict between logic and belief in syllogistic reasoning. <i>Memory &amp; Cognition</i>, <i>11</i>(3), 295–306.",
+   "related": [
+    "B060",
+    "B062",
+    "B066"
+   ],
+   "fr": {
+    "name": "Biais de croyance",
+    "slug": "biais-de-croyance",
+    "definition": "Tendance à juger valide un raisonnement dont la conclusion est crédible, et invalide celui dont la conclusion choque, indépendamment de sa logique.",
+    "example": "« Toutes les fleurs ont besoin d'eau ; les roses ont besoin d'eau ; donc les roses sont des fleurs » paraît valide — il ne l'est pas.",
+    "mechanism": "Conflit entre intuition (plausibilité de la conclusion) et analyse logique",
+    "robustness_note": "Effet très stable en raisonnement déductif.",
+    "countermeasures": "Remplacer les termes par des lettres (A, B, C) pour vérifier la seule structure logique."
+   },
+   "en": {
+    "name": "Belief bias",
+    "aka": "",
+    "slug": "belief-bias",
+    "definition": "The tendency to judge an argument valid when its conclusion is believable, and invalid when its conclusion is shocking, regardless of its logic.",
+    "example": "'All flowers need water; roses need water; therefore roses are flowers' seems valid — it isn't.",
+    "mechanism": "Conflict between intuition (plausibility of the conclusion) and logical analysis",
+    "robustness_note": "A very stable effect in deductive reasoning.",
+    "countermeasures": "Replace the terms with letters (A, B, C) to check the logical structure alone."
+   }
+  },
+  {
+   "id": "B066",
+   "n": 66,
+   "process": "P5",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": true
+   },
+   "doi": "10.1016/S0022-5371(77)80012-1",
+   "reference": "Hasher, L., Goldstein, D., &amp; Toppino, T. (1977). Frequency and the conference of referential validity. <i>Journal of Verbal Learning and Verbal Behavior</i>, <i>16</i>(1), 107–112.",
+   "related": [
+    "B009",
+    "B008",
+    "B018"
+   ],
+   "fr": {
+    "name": "Effet de vérité illusoire",
+    "slug": "effet-de-verite-illusoire",
+    "definition": "Tendance à croire plus vraie une affirmation du simple fait de l'avoir déjà entendue.",
+    "example": "Une fausse information croisée plusieurs fois sur les réseaux finit par sembler « connue ».",
+    "mechanism": "Fluidité de traitement due à la répétition",
+    "robustness_note": "Méta-analyse de Dechêne et al. (2010) ; l'effet persiste même quand on connaît la bonne réponse (Fazio et al., 2015).",
+    "countermeasures": "Vérifier la source plutôt que se fier à la familiarité ; éviter de répéter une fausse information en la corrigeant."
+   },
+   "en": {
+    "name": "Illusory truth effect",
+    "aka": "",
+    "slug": "illusory-truth-effect",
+    "definition": "The tendency to believe a statement is truer simply because one has heard it before.",
+    "example": "A piece of false information seen several times on social media ends up feeling 'known'.",
+    "mechanism": "Processing fluency due to repetition",
+    "robustness_note": "Meta-analysis by Dechêne et al. (2010); the effect persists even when people know the correct answer (Fazio et al., 2015).",
+    "countermeasures": "Check the source rather than relying on familiarity; avoid repeating false information when correcting it."
+   }
+  },
+  {
+   "id": "B067",
+   "n": 67,
+   "process": "P5",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2b",
+    "listed": true
+   },
+   "doi": "10.1037/h0093599",
+   "reference": "Duncker, K. (1945). On problem-solving (L. S. Lees, Trans.). <i>Psychological Monographs</i>, <i>58</i>(5), i–113.",
+   "related": [
+    "B068",
+    "B045"
+   ],
+   "fr": {
+    "name": "Fixation fonctionnelle",
+    "slug": "fixation-fonctionnelle",
+    "definition": "Difficulté à envisager un autre usage d'un objet que sa fonction habituelle.",
+    "example": "On cherche un tournevis pendant dix minutes alors qu'une pièce de monnaie ferait l'affaire.",
+    "mechanism": "La fonction habituelle activée bloque les représentations alternatives",
+    "robustness_note": "Problème de la bougie répliqué ; observé aussi dans une culture où les objets manufacturés sont rares (German & Barrett, 2005).",
+    "countermeasures": "Décrire l'objet par ses propriétés (« plat, rigide, métallique ») plutôt que par sa fonction ; lister des usages possibles."
+   },
+   "en": {
+    "name": "Functional fixedness",
+    "aka": "",
+    "slug": "functional-fixedness",
+    "definition": "The difficulty of imagining any use for an object other than its usual function.",
+    "example": "You spend ten minutes looking for a screwdriver when a coin would do the job.",
+    "mechanism": "The activated usual function blocks alternative representations",
+    "robustness_note": "The candle problem has been replicated; also observed in a culture where manufactured objects are rare (German & Barrett, 2005).",
+    "countermeasures": "Describe the object by its properties ('flat, rigid, metal') rather than its function; list possible uses."
+   }
+  },
+  {
+   "id": "B068",
+   "n": 68,
+   "process": "P5",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2b",
+    "listed": false
+   },
+   "doi": "10.1037/h0093502",
+   "reference": "Luchins, A. S. (1942). Mechanization in problem solving: The effect of Einstellung. <i>Psychological Monographs</i>, <i>54</i>(6), i–95.",
+   "related": [
+    "B067",
+    "B045",
+    "B060"
+   ],
+   "fr": {
+    "name": "Effet Einstellung",
+    "slug": "effet-einstellung",
+    "definition": "Tendance à réappliquer une méthode connue même lorsqu'une solution plus simple existe.",
+    "example": "On reprend son vieux script compliqué alors qu'une fonction native fait la même chose en une ligne.",
+    "mechanism": "Automatisation d'une procédure ; blocage par la première idée qui vient",
+    "robustness_note": "Problèmes des cruches d'eau répliqués ; observé chez des joueurs d'échecs experts (Bilalić et al., 2008).",
+    "countermeasures": "Faire une pause avant de réutiliser une méthode ; se demander « existe-t-il plus simple ? » ; solliciter un regard extérieur."
+   },
+   "en": {
+    "name": "Einstellung effect",
+    "aka": "mental set",
+    "slug": "einstellung-effect",
+    "definition": "The tendency to reapply a familiar method even when a simpler solution exists.",
+    "example": "You reuse your old, convoluted script when a built-in function does the same thing in one line.",
+    "mechanism": "Automated procedure; blocking by the first idea that comes to mind",
+    "robustness_note": "The water-jar problems have been replicated; observed in expert chess players (Bilalić et al., 2008).",
+    "countermeasures": "Pause before reusing a method; ask 'is there a simpler way?'; get an outside view."
+   }
+  },
+  {
+   "id": "B069",
+   "n": 69,
+   "process": "P5",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2a",
+    "listed": false
+   },
+   "doi": "10.1016/j.cognition.2008.07.001",
+   "reference": "Rosset, E. (2008). It's no accident: Our bias for intentional explanations. <i>Cognition</i>, <i>108</i>(3), 771–780.",
+   "related": [
+    "B070",
+    "B073",
+    "B033"
+   ],
+   "fr": {
+    "name": "Biais d'intentionnalité",
+    "slug": "biais-d-intentionnalite",
+    "definition": "Tendance à interpréter les actions ou les événements comme intentionnels plutôt qu'accidentels.",
+    "example": "Un collègue ne répond pas à un courriel : « il m'ignore exprès ».",
+    "mechanism": "Inférence d'intention par défaut ; hyperdétection d'agents",
+    "robustness_note": "Résultat retrouvé sous pression temporelle ; son lien avec la pensée complotiste et la religiosité reste discuté.",
+    "countermeasures": "Envisager l'accident ou l'oubli (rasoir de Hanlon) ; demander plutôt que supposer."
+   },
+   "en": {
+    "name": "Intentionality bias",
+    "aka": "",
+    "slug": "intentionality-bias",
+    "definition": "The tendency to interpret actions or events as intentional rather than accidental.",
+    "example": "A colleague doesn't reply to an email: 'they're ignoring me on purpose'.",
+    "mechanism": "Default inference of intention; hyperactive agency detection",
+    "robustness_note": "Found under time pressure; its link with conspiracy thinking and religiosity is still debated.",
+    "countermeasures": "Consider accident or oversight (Hanlon's razor); ask rather than assume."
+   }
+  },
+  {
+   "id": "B070",
+   "n": 70,
+   "process": "P5",
+   "robustness": "fragile",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2a",
+    "listed": false
+   },
+   "doi": null,
+   "reference": "Leman, P. J., &amp; Cinnirella, M. (2007). A major event has a major cause: Evidence for the role of heuristics in reasoning about conspiracy theories. <i>Social Psychological Review</i>, <i>9</i>(2), 18–28.",
+   "related": [
+    "B069",
+    "B072",
+    "B026"
+   ],
+   "fr": {
+    "name": "Biais de proportionnalité",
+    "slug": "biais-de-proportionnalite",
+    "definition": "Tendance à supposer qu'un événement de grande ampleur doit avoir une cause de même ampleur.",
+    "example": "« Un président ne peut pas avoir été tué par un tireur isolé : il y a forcément un complot. »",
+    "mechanism": "Heuristique de représentativité appliquée aux causes",
+    "robustness_note": "Peu d'études, souvent sur de petits échantillons ; quelques réplications conceptuelles partielles.",
+    "countermeasures": "Accepter que de petites causes puissent avoir de grands effets ; examiner les preuves de la cause, pas sa taille."
+   },
+   "en": {
+    "name": "Proportionality bias",
+    "aka": "",
+    "slug": "proportionality-bias",
+    "definition": "The tendency to assume that a large-scale event must have a cause of similar magnitude.",
+    "example": "'A president can't have been killed by a lone gunman: there must have been a conspiracy.'",
+    "mechanism": "Representativeness heuristic applied to causes",
+    "robustness_note": "Few studies, often with small samples; a few partial conceptual replications.",
+    "countermeasures": "Accept that small causes can have large effects; examine the evidence for the cause, not its size."
+   }
+  },
+  {
+   "id": "B071",
+   "n": 71,
+   "process": "P5",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": true
+   },
+   "doi": "10.1037/h0059240",
+   "reference": "Forer, B. R. (1949). The fallacy of personal validation: A classroom demonstration of gullibility. <i>Journal of Abnormal and Social Psychology</i>, <i>44</i>(1), 118–123.",
+   "related": [
+    "B060",
+    "B075"
+   ],
+   "fr": {
+    "name": "Effet Barnum",
+    "slug": "effet-barnum",
+    "definition": "Tendance à accepter comme personnellement juste une description vague qui s'applique en réalité à presque tout le monde.",
+    "example": "« Vous avez besoin d'être apprécié, mais vous êtes parfois critique envers vous-même » : l'horoscope semble taillé sur mesure.",
+    "mechanism": "Validation subjective ; biais de confirmation",
+    "robustness_note": "Très souvent répliqué, notamment avec les tests de personnalité grand public.",
+    "countermeasures": "Se demander si la description s'appliquerait à n'importe qui ; exiger des prédictions précises et vérifiables."
+   },
+   "en": {
+    "name": "Barnum effect",
+    "aka": "Forer effect",
+    "slug": "barnum-effect",
+    "definition": "The tendency to accept as personally accurate a vague description that in fact applies to almost everyone.",
+    "example": "'You need to be liked, yet you are sometimes critical of yourself': the horoscope seems tailor-made.",
+    "mechanism": "Subjective validation; confirmation bias",
+    "robustness_note": "Replicated many times, notably with popular personality tests.",
+    "countermeasures": "Ask whether the description would apply to anyone; demand precise, testable predictions."
+   }
+  },
+  {
+   "id": "B072",
+   "n": 72,
+   "process": "P5",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2a",
+    "listed": false
+   },
+   "doi": "10.1037/0022-3514.62.2.189",
+   "reference": "Pennington, N., &amp; Hastie, R. (1992). Explaining the evidence: Tests of the story model for juror decision making. <i>Journal of Personality and Social Psychology</i>, <i>62</i>(2), 189–206.",
+   "related": [
+    "B029",
+    "B015",
+    "B034"
+   ],
+   "fr": {
+    "name": "Biais narratif",
+    "slug": "biais-narratif",
+    "definition": "Tendance à préférer une histoire causale cohérente à une explication plus exacte mais moins satisfaisante.",
+    "example": "Un jury retient la version qui « raconte la meilleure histoire », même si elle s'appuie sur moins de preuves.",
+    "mechanism": "Construction de modèles causaux ; besoin de cohérence",
+    "robustness_note": "Le modèle de l'histoire est soutenu par plusieurs études ; l'expression « narrative fallacy » vient de l'essai de Taleb (2007).",
+    "countermeasures": "Séparer faits et interprétation ; envisager plusieurs scénarios ; chercher les éléments qui ne « collent » pas."
+   },
+   "en": {
+    "name": "Narrative bias",
+    "aka": "narrative fallacy",
+    "slug": "narrative-bias",
+    "definition": "The tendency to prefer a coherent causal story over an explanation that is more accurate but less satisfying.",
+    "example": "A jury favours the version that 'tells the best story', even if it rests on less evidence.",
+    "mechanism": "Building causal models; need for coherence",
+    "robustness_note": "The story model is supported by several studies; the expression 'narrative fallacy' comes from Taleb's essay (2007).",
+    "countermeasures": "Separate facts from interpretation; consider several scenarios; look for the elements that don't 'fit'."
+   }
+  },
+  {
+   "id": "B073",
+   "n": 73,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2b",
+    "listed": true
+   },
+   "doi": "10.1016/0022-1031(67)90034-0",
+   "reference": "Jones, E. E., &amp; Harris, V. A. (1967). The attribution of attitudes. <i>Journal of Experimental Social Psychology</i>, <i>3</i>(1), 1–24.",
+   "related": [
+    "B074",
+    "B006",
+    "B075"
+   ],
+   "fr": {
+    "name": "Erreur fondamentale d'attribution",
+    "slug": "erreur-fondamentale-d-attribution",
+    "definition": "Tendance à expliquer le comportement d'autrui par sa personnalité plutôt que par la situation.",
+    "example": "Le conducteur qui vous double est « un chauffard », alors qu'il conduit peut-être quelqu'un aux urgences.",
+    "mechanism": "Saillance de la personne ; correction situationnelle insuffisante",
+    "robustness_note": "Robuste dans les cultures occidentales, atténué dans des cultures plus collectivistes ; le nom a été proposé par Ross (1977).",
+    "countermeasures": "Chercher au moins une explication situationnelle ; se demander ce qu'on aurait fait à sa place."
+   },
+   "en": {
+    "name": "Fundamental attribution error",
+    "aka": "correspondence bias",
+    "slug": "fundamental-attribution-error",
+    "definition": "The tendency to explain other people's behaviour by their personality rather than by the situation.",
+    "example": "The driver who overtakes you is 'a maniac', when they may be rushing someone to the emergency room.",
+    "mechanism": "Salience of the person; insufficient situational correction",
+    "robustness_note": "Robust in Western cultures, weaker in more collectivist cultures; the name was coined by Ross (1977).",
+    "countermeasures": "Look for at least one situational explanation; ask what you would have done in their place."
+   }
+  },
+  {
+   "id": "B074",
+   "n": 74,
+   "process": "P6",
+   "robustness": "fragile",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1d",
+    "listed": true
+   },
+   "doi": null,
+   "reference": "Jones, E. E., &amp; Nisbett, R. E. (1971). <i>The actor and the observer: Divergent perceptions of the causes of behavior</i>. General Learning Press.",
+   "related": [
+    "B073",
+    "B094"
+   ],
+   "fr": {
+    "name": "Asymétrie acteur-observateur",
+    "slug": "asymetrie-acteur-observateur",
+    "definition": "Hypothèse selon laquelle on explique ses propres actes par la situation, et ceux des autres par leur personnalité.",
+    "example": "« Je suis en retard à cause des bouchons ; lui est en retard parce qu'il est désorganisé. »",
+    "mechanism": "Différence de perspective et d'information disponible",
+    "robustness_note": "Méta-analyse de Malle (2006) : asymétrie moyenne quasi nulle, sauf dans certaines conditions (événements négatifs, situations hypothétiques).",
+    "countermeasures": "Accorder à autrui les circonstances qu'on s'accorde ; se mettre à la place de l'autre."
+   },
+   "en": {
+    "name": "Actor-observer asymmetry",
+    "aka": "",
+    "slug": "actor-observer-asymmetry",
+    "definition": "The hypothesis that people explain their own actions by the situation and other people's by their personality.",
+    "example": "'I'm late because of the traffic; he's late because he's disorganised.'",
+    "mechanism": "Difference in perspective and available information",
+    "robustness_note": "Meta-analysis by Malle (2006): average asymmetry close to zero, except under certain conditions (negative events, hypothetical situations).",
+    "countermeasures": "Grant others the circumstances you grant yourself; put yourself in their shoes."
+   }
+  },
+  {
+   "id": "B075",
+   "n": 75,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2c",
+    "listed": true
+   },
+   "doi": "10.1037/h0071663",
+   "reference": "Thorndike, E. L. (1920). A constant error in psychological ratings. <i>Journal of Applied Psychology</i>, <i>4</i>(1), 25–29.",
+   "related": [
+    "B086",
+    "B039",
+    "B076"
+   ],
+   "fr": {
+    "name": "Effet de halo",
+    "slug": "effet-de-halo",
+    "definition": "Tendance à étendre une impression positive (ou négative) sur une qualité à l'ensemble des autres qualités d'une personne ou d'un objet.",
+    "example": "Lors de l'entretien annuel, un agent très à l'aise à l'oral est aussi jugé plus rigoureux dans ses dossiers.",
+    "mechanism": "Cohérence de l'impression globale ; heuristique d'affect",
+    "robustness_note": "Retrouvé en évaluation professionnelle et scolaire et dans la perception de l'attractivité (« ce qui est beau est bon » : Dion et al., 1972) ; l'effet négatif est appelé « effet de corne ».",
+    "countermeasures": "Évaluer critère par critère, preuves à l'appui ; noter les critères séparément et dans un ordre variable."
+   },
+   "en": {
+    "name": "Halo effect",
+    "aka": "",
+    "slug": "halo-effect",
+    "definition": "The tendency to extend a positive (or negative) impression of one quality to all of a person's or object's other qualities.",
+    "example": "In an annual review, an employee who speaks with ease is also judged more rigorous in their written work.",
+    "mechanism": "Coherence of the overall impression; affect heuristic",
+    "robustness_note": "Found in professional and academic evaluation and in perceptions of attractiveness ('what is beautiful is good': Dion et al., 1972); the negative version is called the horn effect.",
+    "countermeasures": "Assess criterion by criterion, with evidence; rate criteria separately and in a varying order."
+   }
+  },
+  {
+   "id": "B076",
+   "n": 76,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2c",
+    "listed": false
+   },
+   "doi": "10.1037/h0044721",
+   "reference": "Byrne, D. (1961). Interpersonal attraction and attitude similarity. <i>Journal of Abnormal and Social Psychology</i>, <i>62</i>(3), 713–715.",
+   "related": [
+    "B077",
+    "B075",
+    "B087"
+   ],
+   "fr": {
+    "name": "Biais de similarité",
+    "slug": "biais-de-similarite",
+    "definition": "Tendance à évaluer plus favorablement les personnes qui nous ressemblent (parcours, opinions, goûts).",
+    "example": "En jury de recrutement, on accroche davantage avec la candidate issue de la même école que soi.",
+    "mechanism": "Attraction par la similarité ; validation de soi",
+    "robustness_note": "Paradigme de l'« étranger fictif » très répliqué ; effet attesté dans les entretiens d'embauche.",
+    "countermeasures": "Entretiens structurés avec grille commune ; jurys diversifiés ; justifier chaque note par un fait observé."
+   },
+   "en": {
+    "name": "Similarity bias",
+    "aka": "similar-to-me effect",
+    "slug": "similarity-bias",
+    "definition": "The tendency to evaluate more favourably people who resemble us (background, opinions, tastes).",
+    "example": "On a hiring panel, you click more with the candidate who went to the same school as you.",
+    "mechanism": "Attraction through similarity; self-validation",
+    "robustness_note": "The 'bogus stranger' paradigm is widely replicated; the effect is documented in job interviews.",
+    "countermeasures": "Structured interviews with a shared grid; diverse panels; justify every score with an observed fact."
+   }
+  },
+  {
+   "id": "B077",
+   "n": 77,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2c",
+    "listed": true
+   },
+   "doi": "10.1002/ejsp.2420010202",
+   "reference": "Tajfel, H., Billig, M. G., Bundy, R. P., &amp; Flament, C. (1971). Social categorization and intergroup behaviour. <i>European Journal of Social Psychology</i>, <i>1</i>(2), 149–178.",
+   "related": [
+    "B078",
+    "B076",
+    "B087"
+   ],
+   "fr": {
+    "name": "Favoritisme pro-endogroupe",
+    "slug": "favoritisme-pro-endogroupe",
+    "definition": "Tendance à favoriser les membres de son propre groupe, même lorsque ce groupe a été constitué arbitrairement.",
+    "example": "Des participants répartis en « amateurs de Klee » et « amateurs de Kandinsky » avantagent leur groupe dans la distribution de points.",
+    "mechanism": "Catégorisation sociale ; théorie de l'identité sociale",
+    "robustness_note": "Paradigme des groupes minimaux largement répliqué.",
+    "countermeasures": "Créer des objectifs communs entre groupes ; élargir le « nous » ; expliciter les critères de décision."
+   },
+   "en": {
+    "name": "In-group favoritism",
+    "aka": "",
+    "slug": "in-group-favoritism",
+    "definition": "The tendency to favour members of one's own group, even when that group was formed arbitrarily.",
+    "example": "Participants divided into 'Klee fans' and 'Kandinsky fans' favour their own group when distributing points.",
+    "mechanism": "Social categorisation; social identity theory",
+    "robustness_note": "The minimal group paradigm is widely replicated.",
+    "countermeasures": "Create shared goals across groups; broaden the 'us'; make decision criteria explicit."
+   }
+  },
+  {
+   "id": "B078",
+   "n": 78,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2c",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.38.1.141",
+   "reference": "Quattrone, G. A., &amp; Jones, E. E. (1980). The perception of variability within in-groups and out-groups: Implications for the law of small numbers. <i>Journal of Personality and Social Psychology</i>, <i>38</i>(1), 141–152.",
+   "related": [
+    "B077",
+    "B033",
+    "B031"
+   ],
+   "fr": {
+    "name": "Homogénéité de l'exogroupe",
+    "slug": "homogeneite-de-l-exogroupe",
+    "definition": "Tendance à percevoir les membres d'un autre groupe comme plus semblables entre eux que ceux de son propre groupe.",
+    "example": "« Les ingénieurs sont tous pareils », dit l'artiste — qui distingue finement chaque artiste de son entourage.",
+    "mechanism": "Moindre familiarité ; catégorisation",
+    "robustness_note": "Effet bien établi ; il peut s'inverser pour les groupes minoritaires, qui perçoivent parfois leur propre groupe comme plus homogène.",
+    "countermeasures": "Multiplier les contacts individuels ; s'intéresser aux différences internes à l'autre groupe."
+   },
+   "en": {
+    "name": "Out-group homogeneity effect",
+    "aka": "",
+    "slug": "out-group-homogeneity-effect",
+    "definition": "The tendency to see members of another group as more alike than members of one's own group.",
+    "example": "'Engineers are all the same,' says the artist — who draws fine distinctions between every artist they know.",
+    "mechanism": "Lower familiarity; categorisation",
+    "robustness_note": "A well-established effect; it can reverse for minority groups, who sometimes perceive their own group as more homogeneous.",
+    "countermeasures": "Increase individual contacts; take an interest in the differences within the other group."
+   }
+  },
+  {
+   "id": "B079",
+   "n": 79,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": true
+   },
+   "doi": "10.1016/0022-1031(77)90049-X",
+   "reference": "Ross, L., Greene, D., &amp; House, P. (1977). The “false consensus effect”: An egocentric bias in social perception and attribution processes. <i>Journal of Experimental Social Psychology</i>, <i>13</i>(3), 279–301.",
+   "related": [
+    "B080",
+    "B083",
+    "B084"
+   ],
+   "fr": {
+    "name": "Effet de faux consensus",
+    "slug": "effet-de-faux-consensus",
+    "definition": "Tendance à surestimer la proportion de personnes qui partagent ses opinions, ses choix ou ses comportements.",
+    "example": "« Tout le monde trouve cette réforme absurde » — parce que tous mes collègues proches le pensent.",
+    "mechanism": "Projection sociale ; entourage non représentatif",
+    "robustness_note": "Effet robuste (méta-analyse de Mullen et al., 1985).",
+    "countermeasures": "Consulter des données représentatives ; interroger des personnes extérieures à son cercle."
+   },
+   "en": {
+    "name": "False consensus effect",
+    "aka": "",
+    "slug": "false-consensus-effect",
+    "definition": "The tendency to overestimate the proportion of people who share one's opinions, choices or behaviour.",
+    "example": "'Everyone thinks this reform is absurd' — because all your close colleagues do.",
+    "mechanism": "Social projection; unrepresentative social circle",
+    "robustness_note": "A robust effect (meta-analysis by Mullen et al., 1985).",
+    "countermeasures": "Consult representative data; ask people outside your own circle."
+   }
+  },
+  {
+   "id": "B080",
+   "n": 80,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2e",
+    "listed": false
+   },
+   "doi": "10.1037/0022-3514.64.2.243",
+   "reference": "Prentice, D. A., &amp; Miller, D. T. (1993). Pluralistic ignorance and alcohol use on campus: Some consequences of misperceiving the social norm. <i>Journal of Personality and Social Psychology</i>, <i>64</i>(2), 243–256.",
+   "related": [
+    "B079",
+    "B088",
+    "B082"
+   ],
+   "fr": {
+    "name": "Ignorance pluraliste",
+    "slug": "ignorance-pluraliste",
+    "definition": "Situation où la plupart des membres d'un groupe rejettent en privé une norme, tout en pensant à tort que les autres l'acceptent.",
+    "example": "En réunion, personne ne pose de question, chacun se croyant le seul à ne pas avoir compris.",
+    "mechanism": "Inférence de la norme à partir des seuls comportements publics",
+    "robustness_note": "Concept ancien (Katz & Allport, 1931) ; effet retrouvé pour de nombreuses normes sociales.",
+    "countermeasures": "Recueillir les avis de façon anonyme ; rendre visibles les opinions réelles (sondage interne)."
+   },
+   "en": {
+    "name": "Pluralistic ignorance",
+    "aka": "",
+    "slug": "pluralistic-ignorance",
+    "definition": "A situation in which most members of a group privately reject a norm while wrongly believing that the others accept it.",
+    "example": "In a meeting, nobody asks a question, each person believing they are the only one who didn't understand.",
+    "mechanism": "Inferring the norm from public behaviour alone",
+    "robustness_note": "An old concept (Katz & Allport, 1931); effects found for many social norms.",
+    "countermeasures": "Collect opinions anonymously; make actual opinions visible (internal survey)."
+   }
+  },
+  {
+   "id": "B081",
+   "n": 81,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2e",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.78.2.211",
+   "reference": "Gilovich, T., Medvec, V. H., &amp; Savitsky, K. (2000). The spotlight effect in social judgment: An egocentric bias in estimates of the salience of one's own actions and appearance. <i>Journal of Personality and Social Psychology</i>, <i>78</i>(2), 211–222.",
+   "related": [
+    "B082",
+    "B084",
+    "B083"
+   ],
+   "fr": {
+    "name": "Effet projecteur",
+    "slug": "effet-projecteur",
+    "definition": "Tendance à surestimer à quel point les autres remarquent notre apparence ou nos actions.",
+    "example": "On est persuadé que toute la salle a vu la tache sur sa chemise ; en réalité, presque personne.",
+    "mechanism": "Ancrage sur sa propre perspective, ajustement insuffisant",
+    "robustness_note": "Expérience du tee-shirt embarrassant ; effet retrouvé dans des études ultérieures, d'ampleur variable.",
+    "countermeasures": "Se rappeler que chacun est d'abord centré sur soi ; demander un retour factuel."
+   },
+   "en": {
+    "name": "Spotlight effect",
+    "aka": "",
+    "slug": "spotlight-effect",
+    "definition": "The tendency to overestimate how much others notice our appearance or actions.",
+    "example": "You are convinced the whole room saw the stain on your shirt; in fact, almost nobody did.",
+    "mechanism": "Anchoring on one's own perspective, insufficient adjustment",
+    "robustness_note": "The embarrassing T-shirt experiment; the effect has been found in later studies, with varying magnitude.",
+    "countermeasures": "Remember that everyone is mostly focused on themselves; ask for factual feedback."
+   }
+  },
+  {
+   "id": "B082",
+   "n": 82,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2e",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.75.2.332",
+   "reference": "Gilovich, T., Savitsky, K., &amp; Medvec, V. H. (1998). The illusion of transparency: Biased assessments of others' ability to read one's emotional states. <i>Journal of Personality and Social Psychology</i>, <i>75</i>(2), 332–346.",
+   "related": [
+    "B081",
+    "B084",
+    "B080"
+   ],
+   "fr": {
+    "name": "Illusion de transparence",
+    "slug": "illusion-de-transparence",
+    "definition": "Tendance à surestimer la capacité des autres à percevoir nos états internes (stress, émotions, intentions).",
+    "example": "L'oratrice pense que tout le monde voit son trac, alors que le public la trouve calme.",
+    "mechanism": "Ancrage égocentrique",
+    "robustness_note": "Connaître l'existence de l'illusion réduit l'anxiété et améliore la prise de parole (Savitsky & Gilovich, 2003).",
+    "countermeasures": "Exprimer explicitement ses intentions ; ne pas supposer que l'autre « a compris »."
+   },
+   "en": {
+    "name": "Illusion of transparency",
+    "aka": "",
+    "slug": "illusion-of-transparency",
+    "definition": "The tendency to overestimate how well others can perceive our internal states (stress, emotions, intentions).",
+    "example": "The speaker thinks everyone can see her stage fright, while the audience finds her calm.",
+    "mechanism": "Egocentric anchoring",
+    "robustness_note": "Knowing about the illusion reduces anxiety and improves public speaking (Savitsky & Gilovich, 2003).",
+    "countermeasures": "State your intentions explicitly; don't assume the other person 'got it'."
+   }
+  },
+  {
+   "id": "B083",
+   "n": 83,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1e",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.68.3.404",
+   "reference": "Robinson, R. J., Keltner, D., Ward, A., &amp; Ross, L. (1995). Actual versus assumed differences in construal: “Naive realism” in intergroup perception and conflict. <i>Journal of Personality and Social Psychology</i>, <i>68</i>(3), 404–417.",
+   "related": [
+    "B101",
+    "B079",
+    "B063"
+   ],
+   "fr": {
+    "name": "Réalisme naïf",
+    "slug": "realisme-naif",
+    "definition": "Conviction de voir le monde « tel qu'il est », si bien que ceux qui ne sont pas d'accord seraient mal informés, irrationnels ou biaisés.",
+    "example": "« Si les autres avaient les mêmes informations que moi, ils penseraient comme moi. »",
+    "mechanism": "Confusion entre sa perception et la réalité",
+    "robustness_note": "La surestimation de l'écart entre camps est retrouvée dans plusieurs conflits politiques et sociaux.",
+    "countermeasures": "Reformuler la position de l'autre à sa satisfaction avant de répondre ; admettre qu'il dispose d'autres informations ou valeurs."
+   },
+   "en": {
+    "name": "Naive realism",
+    "aka": "",
+    "slug": "naive-realism",
+    "definition": "The conviction that one sees the world 'as it is', so that those who disagree must be misinformed, irrational or biased.",
+    "example": "'If other people had the same information as me, they would think as I do.'",
+    "mechanism": "Confusing one's perception with reality",
+    "robustness_note": "Overestimation of the gap between opposing sides has been found in several political and social conflicts.",
+    "countermeasures": "Restate the other person's position to their satisfaction before replying; accept that they may have other information or values."
+   }
+  },
+  {
+   "id": "B084",
+   "n": 84,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2e",
+    "listed": true
+   },
+   "doi": "10.1086/261651",
+   "reference": "Camerer, C., Loewenstein, G., &amp; Weber, M. (1989). The curse of knowledge in economic settings: An experimental analysis. <i>Journal of Political Economy</i>, <i>97</i>(5), 1232–1254.",
+   "related": [
+    "B015",
+    "B082",
+    "B079"
+   ],
+   "fr": {
+    "name": "Malédiction du savoir",
+    "slug": "malediction-du-savoir",
+    "definition": "Difficulté à se représenter le point de vue de quelqu'un qui ne possède pas une connaissance qu'on a soi-même.",
+    "example": "Un expert truffe sa présentation de sigles sans se rendre compte que le public est perdu.",
+    "mechanism": "Impossibilité d'« oublier » ce qu'on sait ; ancrage sur sa propre connaissance",
+    "robustness_note": "Retrouvé dans l'expérience des mélodies tapotées (Newton, 1990) et en développement de l'enfant (tâches de fausse croyance).",
+    "countermeasures": "Tester ses explications auprès de novices ; prévoir un glossaire ; partir d'exemples concrets."
+   },
+   "en": {
+    "name": "Curse of knowledge",
+    "aka": "",
+    "slug": "curse-of-knowledge",
+    "definition": "The difficulty of imagining the perspective of someone who lacks knowledge that one has.",
+    "example": "An expert fills a presentation with acronyms without realising the audience is lost.",
+    "mechanism": "Inability to 'unknow' what one knows; anchoring on one's own knowledge",
+    "robustness_note": "Found in the tapped-melodies experiment (Newton, 1990) and in child development (false-belief tasks).",
+    "countermeasures": "Test your explanations on newcomers; provide a glossary; start from concrete examples."
+   }
+  },
+  {
+   "id": "B085",
+   "n": 85,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2b",
+    "listed": true
+   },
+   "doi": "10.1037/h0023562",
+   "reference": "Lerner, M. J., &amp; Simmons, C. H. (1966). Observer's reaction to the “innocent victim”: Compassion or rejection? <i>Journal of Personality and Social Psychology</i>, <i>4</i>(2), 203–210.",
+   "related": [
+    "B073",
+    "B095",
+    "B015"
+   ],
+   "fr": {
+    "name": "Croyance en un monde juste",
+    "slug": "croyance-en-un-monde-juste",
+    "definition": "Tendance à croire que le monde est juste et donc que chacun obtient ce qu'il mérite.",
+    "example": "« S'il a perdu son emploi, c'est qu'il ne travaillait pas assez. »",
+    "mechanism": "Besoin de prévisibilité et de contrôle ; protection contre l'angoisse",
+    "robustness_note": "La dévalorisation des victimes est retrouvée dans de nombreuses études (synthèse : Hafer & Bègue, 2005), avec de fortes différences individuelles.",
+    "countermeasures": "Distinguer causes et responsabilités ; examiner le rôle du hasard et du contexte."
+   },
+   "en": {
+    "name": "Just-world belief",
+    "aka": "",
+    "slug": "just-world-belief",
+    "definition": "The tendency to believe that the world is fair, and therefore that people get what they deserve.",
+    "example": "'If he lost his job, he must not have worked hard enough.'",
+    "mechanism": "Need for predictability and control; protection against anxiety",
+    "robustness_note": "Victim derogation has been found in many studies (review: Hafer & Bègue, 2005), with strong individual differences.",
+    "countermeasures": "Distinguish causes from responsibility; consider the role of chance and context."
+   }
+  },
+  {
+   "id": "B086",
+   "n": 86,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C4",
+    "strategy": "C4c",
+    "listed": true
+   },
+   "doi": "10.1037/h0055756",
+   "reference": "Asch, S. E. (1946). Forming impressions of personality. <i>Journal of Abnormal and Social Psychology</i>, <i>41</i>(3), 258–290.",
+   "related": [
+    "B075",
+    "B027",
+    "B012"
+   ],
+   "fr": {
+    "name": "Effet de primauté",
+    "slug": "effet-de-primaute",
+    "definition": "Tendance à donner plus de poids aux premières informations reçues sur une personne qu'aux suivantes.",
+    "example": "« Intelligente, travailleuse, impulsive, critique, têtue, envieuse » fait meilleure impression que la même liste dans l'ordre inverse.",
+    "mechanism": "Les premières informations orientent l'interprétation des suivantes",
+    "robustness_note": "La réplication de Nauts et al. (2014) retrouve l'effet de primauté, mais pas toutes les interprétations d'Asch.",
+    "countermeasures": "Différer son jugement jusqu'à la fin ; examiner les dossiers dans un ordre variable."
+   },
+   "en": {
+    "name": "Primacy effect",
+    "aka": "impression formation",
+    "slug": "primacy-effect",
+    "definition": "The tendency to give more weight to the first information received about a person than to what follows.",
+    "example": "'Intelligent, industrious, impulsive, critical, stubborn, envious' makes a better impression than the same list in reverse order.",
+    "mechanism": "Early information shapes the interpretation of later information",
+    "robustness_note": "The replication by Nauts et al. (2014) found the primacy effect, but not all of Asch's interpretations.",
+    "countermeasures": "Defer judgement until the end; review files in a varying order."
+   }
+  },
+  {
+   "id": "B087",
+   "n": 87,
+   "process": "P6",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C4",
+    "strategy": "C4b",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.74.6.1464",
+   "reference": "Greenwald, A. G., McGhee, D. E., &amp; Schwartz, J. L. K. (1998). Measuring individual differences in implicit cognition: The implicit association test. <i>Journal of Personality and Social Psychology</i>, <i>74</i>(6), 1464–1480.",
+   "related": [
+    "B077",
+    "B076",
+    "B033"
+   ],
+   "fr": {
+    "name": "Biais implicite",
+    "slug": "biais-implicite",
+    "definition": "Associations automatiques, souvent non conscientes, entre des groupes sociaux et des attributs, susceptibles d'influencer le jugement.",
+    "example": "On associe plus vite « science » à « homme » qu'à « femme » dans un test chronométré.",
+    "mechanism": "Associations mémorielles automatiques",
+    "robustness_note": "Les associations mesurées par l'IAT existent, mais leur fidélité individuelle est modeste et elles prédisent mal les comportements (Oswald et al., 2013) ; les modifier change peu les conduites (Forscher et al., 2019).",
+    "countermeasures": "Agir sur les procédures (anonymisation, grilles d'évaluation) plutôt que sur les seules sensibilisations."
+   },
+   "en": {
+    "name": "Implicit bias",
+    "aka": "",
+    "slug": "implicit-bias",
+    "definition": "Automatic, often unconscious associations between social groups and attributes, which may influence judgement.",
+    "example": "In a timed test, you pair 'science' with 'man' faster than with 'woman'.",
+    "mechanism": "Automatic memory associations",
+    "robustness_note": "The associations measured by the IAT exist, but their individual reliability is modest and they predict behaviour poorly (Oswald et al., 2013); changing them does little to change behaviour (Forscher et al., 2019).",
+    "countermeasures": "Act on procedures (anonymisation, evaluation grids) rather than on awareness training alone."
+   }
+  },
+  {
+   "id": "B088",
+   "n": 88,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2b",
+    "listed": true
+   },
+   "doi": "10.1037/h0093718",
+   "reference": "Asch, S. E. (1956). Studies of independence and conformity: I. A minority of one against a unanimous majority. <i>Psychological Monographs: General and Applied</i>, <i>70</i>(9), 1–70.",
+   "related": [
+    "B080",
+    "B079",
+    "B011"
+   ],
+   "fr": {
+    "name": "Conformisme",
+    "slug": "conformisme",
+    "definition": "Tendance à aligner ses jugements ou ses comportements sur ceux de la majorité.",
+    "example": "Quand tout le groupe affirme qu'une ligne visiblement plus courte est la plus longue, beaucoup finissent par le dire aussi.",
+    "mechanism": "Influence normative (être accepté) et informationnelle (les autres savent peut-être)",
+    "robustness_note": "Méta-analyse de Bond et Smith (1996) : effet retrouvé, plus faible qu'en 1950 et variable selon les cultures.",
+    "countermeasures": "Recueillir les avis individuellement avant la discussion ; faire parler les moins gradés en premier ; désigner un contradicteur."
+   },
+   "en": {
+    "name": "Conformity",
+    "aka": "bandwagon effect",
+    "slug": "conformity",
+    "definition": "The tendency to align one's judgements or behaviour with those of the majority.",
+    "example": "When the whole group claims that a visibly shorter line is the longest, many end up saying so too.",
+    "mechanism": "Normative influence (being accepted) and informational influence (others may know better)",
+    "robustness_note": "Meta-analysis by Bond and Smith (1996): the effect is found, weaker than in the 1950s and varying across cultures.",
+    "countermeasures": "Collect individual opinions before discussion; let junior members speak first; appoint a dissenter."
+   }
+  },
+  {
+   "id": "B089",
+   "n": 89,
+   "process": "P6",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1d",
+    "listed": false
+   },
+   "doi": "10.1007/BF02322211",
+   "reference": "Rosenthal, R., &amp; Jacobson, L. (1968). Pygmalion in the classroom. <i>The Urban Review</i>, <i>3</i>(1), 16–20.",
+   "related": [
+    "B060",
+    "B075",
+    "B086"
+   ],
+   "fr": {
+    "name": "Effet Pygmalion",
+    "slug": "effet-pygmalion",
+    "definition": "Les attentes d'une personne envers une autre influencent les performances de celle-ci dans le sens attendu.",
+    "example": "Des élèves présentés à leurs enseignants comme « prometteurs » progressent davantage.",
+    "mechanism": "Prophétie autoréalisatrice : l'évaluateur modifie son comportement",
+    "robustness_note": "Les effets d'attente existent mais sont modestes et souvent temporaires ; l'étude originale a été critiquée sur le plan méthodologique (Jussim & Harber, 2005).",
+    "countermeasures": "Fixer des attentes élevées pour tous ; fonder les retours sur des critères explicites."
+   },
+   "en": {
+    "name": "Pygmalion effect",
+    "aka": "teacher expectancy effect",
+    "slug": "pygmalion-effect",
+    "definition": "The expectations one person holds about another influence that person's performance in the expected direction.",
+    "example": "Pupils introduced to their teachers as 'promising' make greater progress.",
+    "mechanism": "Self-fulfilling prophecy: the evaluator's behaviour changes",
+    "robustness_note": "Expectancy effects exist but are modest and often temporary; the original study has been criticised on methodological grounds (Jussim & Harber, 2005).",
+    "countermeasures": "Set high expectations for everyone; base feedback on explicit criteria."
+   }
+  },
+  {
+   "id": "B090",
+   "n": 90,
+   "process": "P6",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": true
+   },
+   "doi": "10.1037/h0047358",
+   "reference": "Crowne, D. P., &amp; Marlowe, D. (1960). A new scale of social desirability independent of psychopathology. <i>Journal of Consulting Psychology</i>, <i>24</i>(4), 349–354.",
+   "related": [
+    "B094",
+    "B024",
+    "B088"
+   ],
+   "fr": {
+    "name": "Biais de désirabilité sociale",
+    "slug": "biais-de-desirabilite-sociale",
+    "definition": "Tendance à répondre aux questions de manière à se présenter favorablement plutôt que sincèrement.",
+    "example": "Dans un questionnaire, on surestime son temps de lecture et on sous-estime son temps d'écran.",
+    "mechanism": "Gestion des impressions ; tromperie de soi",
+    "robustness_note": "Bien établi en méthodologie d'enquête ; plus marqué en face à face qu'en questionnaire anonyme en ligne.",
+    "countermeasures": "Questionnaires anonymes et auto-administrés ; formulations neutres ; questions indirectes."
+   },
+   "en": {
+    "name": "Social desirability bias",
+    "aka": "",
+    "slug": "social-desirability-bias",
+    "definition": "The tendency to answer questions in a way that presents oneself favourably rather than truthfully.",
+    "example": "In a questionnaire, you overstate your reading time and understate your screen time.",
+    "mechanism": "Impression management; self-deception",
+    "robustness_note": "Well established in survey methodology; stronger in face-to-face interviews than in anonymous online questionnaires.",
+    "countermeasures": "Anonymous, self-administered questionnaires; neutral wording; indirect questions."
+   }
+  },
+  {
+   "id": "B091",
+   "n": 91,
+   "process": "P7",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.39.5.806",
+   "reference": "Weinstein, N. D. (1980). Unrealistic optimism about future life events. <i>Journal of Personality and Social Psychology</i>, <i>39</i>(5), 806–820.",
+   "related": [
+    "B035",
+    "B095",
+    "B092"
+   ],
+   "fr": {
+    "name": "Biais d'optimisme",
+    "slug": "biais-d-optimisme",
+    "definition": "Tendance à se croire moins exposé que les autres aux événements négatifs, et davantage aux événements positifs.",
+    "example": "« Pas besoin de sauvegarde, mon disque dur n'a jamais lâché. »",
+    "mechanism": "Motivation à se sentir bien ; illusion de contrôle",
+    "robustness_note": "Largement observé, mais une partie des résultats pourrait relever d'artefacts statistiques (Harris & Hahn, 2011).",
+    "countermeasures": "Prémortem (« imaginons que ça a échoué : pourquoi ? ») ; s'appuyer sur des statistiques de référence."
+   },
+   "en": {
+    "name": "Optimism bias",
+    "aka": "",
+    "slug": "optimism-bias",
+    "definition": "The tendency to believe oneself less exposed than others to negative events and more exposed to positive ones.",
+    "example": "'No need for a backup — my hard drive has never failed.'",
+    "mechanism": "Motivation to feel good; illusion of control",
+    "robustness_note": "Widely observed, but some of the findings may reflect statistical artefacts (Harris & Hahn, 2011).",
+    "countermeasures": "Pre-mortem ('imagine it failed: why?'); rely on reference statistics."
+   }
+  },
+  {
+   "id": "B092",
+   "n": 92,
+   "process": "P7",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": true
+   },
+   "doi": "10.1016/0001-6918(81)90005-6",
+   "reference": "Svenson, O. (1981). Are we all less risky and more skillful than our fellow drivers? <i>Acta Psychologica</i>, <i>47</i>(2), 143–148.",
+   "related": [
+    "B036",
+    "B093",
+    "B094"
+   ],
+   "fr": {
+    "name": "Effet de supériorité illusoire",
+    "slug": "effet-de-superiorite-illusoire",
+    "definition": "Tendance à se juger supérieur à la moyenne pour des qualités désirables.",
+    "example": "Dans une étude célèbre, 93 % des conducteurs américains interrogés s'estimaient plus habiles que la moyenne.",
+    "mechanism": "Valorisation de soi ; définition de la compétence choisie à son avantage",
+    "robustness_note": "Effet très général (méta-analyse de Zell et al., 2020) ; il s'inverse pour les tâches perçues comme difficiles.",
+    "countermeasures": "Se comparer à des mesures objectives ; solliciter des évaluations externes."
+   },
+   "en": {
+    "name": "Illusory superiority",
+    "aka": "better-than-average effect",
+    "slug": "illusory-superiority",
+    "definition": "The tendency to rate oneself above average on desirable qualities.",
+    "example": "In a well-known study, 93% of American drivers surveyed rated themselves as more skilful than average.",
+    "mechanism": "Self-enhancement; definitions of competence chosen to one's advantage",
+    "robustness_note": "A very general effect (meta-analysis by Zell et al., 2020); it reverses for tasks perceived as difficult.",
+    "countermeasures": "Compare yourself with objective measures; seek external assessments."
+   }
+  },
+  {
+   "id": "B093",
+   "n": 93,
+   "process": "P7",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.77.6.1121",
+   "reference": "Kruger, J., &amp; Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments. <i>Journal of Personality and Social Psychology</i>, <i>77</i>(6), 1121–1134.",
+   "related": [
+    "B092",
+    "B036",
+    "B099"
+   ],
+   "fr": {
+    "name": "Effet Dunning-Kruger",
+    "slug": "effet-dunning-kruger",
+    "definition": "Tendance des personnes les moins compétentes dans un domaine à surestimer fortement leur niveau.",
+    "example": "Après une vidéo de dix minutes, on se sent capable d'expliquer la mécanique quantique.",
+    "mechanism": "Déficit métacognitif (selon les auteurs)",
+    "robustness_note": "La forme des résultats s'explique en partie par la régression à la moyenne et l'effet de supériorité illusoire (Nuhfer et al., 2016 ; Gignac & Zajenkowski, 2020) ; la courbe populaire du « mont Stupide » ne figure pas dans l'article.",
+    "countermeasures": "Se tester objectivement ; demander des retours ; garder en tête que plus on apprend, plus on mesure ce qu'on ignore."
+   },
+   "en": {
+    "name": "Dunning-Kruger effect",
+    "aka": "",
+    "slug": "dunning-kruger-effect",
+    "definition": "The tendency of the least competent people in a field to greatly overestimate their level.",
+    "example": "After a ten-minute video, you feel able to explain quantum mechanics.",
+    "mechanism": "Metacognitive deficit (according to the authors)",
+    "robustness_note": "The pattern of results is partly explained by regression to the mean and the better-than-average effect (Nuhfer et al., 2016; Gignac & Zajenkowski, 2020); the popular 'Mount Stupid' curve does not appear in the paper.",
+    "countermeasures": "Test yourself objectively; ask for feedback; remember that the more you learn, the more you see what you don't know."
+   }
+  },
+  {
+   "id": "B094",
+   "n": 94,
+   "process": "P7",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": true
+   },
+   "doi": "10.1037/h0076486",
+   "reference": "Miller, D. T., &amp; Ross, M. (1975). Self-serving biases in the attribution of causality: Fact or fiction? <i>Psychological Bulletin</i>, <i>82</i>(2), 213–225.",
+   "related": [
+    "B074",
+    "B092",
+    "B090"
+   ],
+   "fr": {
+    "name": "Biais d'autocomplaisance",
+    "slug": "biais-d-autocomplaisance",
+    "definition": "Tendance à attribuer ses réussites à ses qualités et ses échecs à des causes extérieures.",
+    "example": "« J'ai réussi cet examen grâce à mon travail ; j'ai raté le précédent à cause d'un correcteur trop sévère. »",
+    "mechanism": "Protection de l'estime de soi",
+    "robustness_note": "Méta-analyse de Mezulis et al. (2004) : effet important, plus faible dans les cultures d'Asie de l'Est et chez les personnes déprimées.",
+    "countermeasures": "Analyser réussites et échecs avec la même grille ; pratiquer des retours d'expérience systématiques."
+   },
+   "en": {
+    "name": "Self-serving bias",
+    "aka": "",
+    "slug": "self-serving-bias",
+    "definition": "The tendency to attribute one's successes to one's own qualities and one's failures to external causes.",
+    "example": "'I passed this exam thanks to my hard work; I failed the last one because the examiner was too harsh.'",
+    "mechanism": "Protection of self-esteem",
+    "robustness_note": "Meta-analysis by Mezulis et al. (2004): a large effect, smaller in East Asian cultures and among depressed people.",
+    "countermeasures": "Analyse successes and failures with the same grid; hold systematic debriefs."
+   }
+  },
+  {
+   "id": "B095",
+   "n": 95,
+   "process": "P7",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.32.2.311",
+   "reference": "Langer, E. J. (1975). The illusion of control. <i>Journal of Personality and Social Psychology</i>, <i>32</i>(2), 311–328.",
+   "related": [
+    "B091",
+    "B030",
+    "B037"
+   ],
+   "fr": {
+    "name": "Illusion de contrôle",
+    "slug": "illusion-de-controle",
+    "definition": "Tendance à surestimer son influence sur des événements qui relèvent du hasard.",
+    "example": "On préfère choisir soi-même son billet de loterie, et on le revend plus cher qu'un billet attribué au hasard.",
+    "mechanism": "Confusion entre situations d'habileté et situations de hasard",
+    "robustness_note": "Effet retrouvé, mais plusieurs résultats originaux sont faibles et l'effet dépend beaucoup des consignes et des mesures.",
+    "countermeasures": "Distinguer ce qui dépend de soi de ce qui n'en dépend pas ; regarder les résultats sur un grand nombre d'essais."
+   },
+   "en": {
+    "name": "Illusion of control",
+    "aka": "",
+    "slug": "illusion-of-control",
+    "definition": "The tendency to overestimate one's influence over events that are determined by chance.",
+    "example": "People prefer to choose their own lottery ticket, and ask more to sell it than for a ticket assigned at random.",
+    "mechanism": "Confusing skill situations with chance situations",
+    "robustness_note": "The effect has been found, but several original results are weak and the effect depends heavily on instructions and measures.",
+    "countermeasures": "Distinguish what depends on you from what does not; look at outcomes over a large number of trials."
+   }
+  },
+  {
+   "id": "B096",
+   "n": 96,
+   "process": "P7",
+   "robustness": "debated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1d",
+    "listed": false
+   },
+   "doi": "10.1037/h0041593",
+   "reference": "Festinger, L., &amp; Carlsmith, J. M. (1959). Cognitive consequences of forced compliance. <i>Journal of Abnormal and Social Psychology</i>, <i>58</i>(2), 203–210.",
+   "related": [
+    "B048",
+    "B020",
+    "B062",
+    "B047"
+   ],
+   "fr": {
+    "name": "Dissonance cognitive",
+    "slug": "dissonance-cognitive",
+    "definition": "Inconfort ressenti face à une contradiction entre ses croyances et ses actes, qui pousse à modifier ses croyances pour justifier ses actes.",
+    "example": "Après avoir acheté un téléphone hors de prix, on ne lit plus que les critiques élogieuses.",
+    "mechanism": "Réduction de la dissonance ; autojustification",
+    "robustness_note": "Théorie centrale de la psychologie sociale, mais une réplication multi-laboratoires du paradigme de soumission induite n'a pas retrouvé l'effet (Vaidis et al., 2024).",
+    "countermeasures": "Considérer une erreur comme une information ; séparer l'estime de soi de la décision passée."
+   },
+   "en": {
+    "name": "Cognitive dissonance",
+    "aka": "post-hoc rationalisation",
+    "slug": "cognitive-dissonance",
+    "definition": "Discomfort felt when one's beliefs and actions conflict, prompting a change in beliefs to justify the actions.",
+    "example": "After buying an overpriced phone, you only read the glowing reviews.",
+    "mechanism": "Dissonance reduction; self-justification",
+    "robustness_note": "A central theory in social psychology, but a multi-lab replication of the induced-compliance paradigm did not find the effect (Vaidis et al., 2024).",
+    "countermeasures": "Treat a mistake as information; separate your self-esteem from the past decision."
+   }
+  },
+  {
+   "id": "B097",
+   "n": 97,
+   "process": "P7",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2f",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.75.3.617",
+   "reference": "Gilbert, D. T., Pinel, E. C., Wilson, T. D., Blumberg, S. J., &amp; Wheatley, T. P. (1998). Immune neglect: A source of durability bias in affective forecasting. <i>Journal of Personality and Social Psychology</i>, <i>75</i>(3), 617–638.",
+   "related": [
+    "B010",
+    "B098",
+    "B021"
+   ],
+   "fr": {
+    "name": "Biais d'impact",
+    "slug": "biais-d-impact",
+    "definition": "Tendance à surestimer l'intensité et la durée des émotions que provoquera un événement futur.",
+    "example": "« Si je n'ai pas ce poste, je serai malheureuse pendant des mois » — quelques semaines plus tard, on a rebondi.",
+    "mechanism": "Négligence du « système immunitaire psychologique » ; focalisation sur l'événement",
+    "robustness_note": "Bien documenté (Wilson & Gilbert, 2005) ; une partie de l'effet pourrait tenir à la façon dont les questions sont posées (Levine et al., 2012).",
+    "countermeasures": "Interroger des personnes qui ont vécu l'événement ; se rappeler ses capacités d'adaptation passées."
+   },
+   "en": {
+    "name": "Impact bias",
+    "aka": "affective forecasting error",
+    "slug": "impact-bias",
+    "definition": "The tendency to overestimate the intensity and duration of the emotions a future event will cause.",
+    "example": "'If I don't get this job, I'll be miserable for months' — a few weeks later, you have bounced back.",
+    "mechanism": "Neglect of the 'psychological immune system'; focusing on the event",
+    "robustness_note": "Well documented (Wilson & Gilbert, 2005); part of the effect may stem from how the questions are asked (Levine et al., 2012).",
+    "countermeasures": "Ask people who have been through the event; remember how you have adapted in the past."
+   }
+  },
+  {
+   "id": "B098",
+   "n": 98,
+   "process": "P7",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1a",
+    "listed": true
+   },
+   "doi": "10.1177/0146167203254597",
+   "reference": "Van Boven, L., &amp; Loewenstein, G. (2003). Social projection of transient drive states. <i>Personality and Social Psychology Bulletin</i>, <i>29</i>(9), 1159–1168.",
+   "related": [
+    "B051",
+    "B097",
+    "B079"
+   ],
+   "fr": {
+    "name": "Écart d'empathie chaud-froid",
+    "slug": "ecart-d-empathie-chaud-froid",
+    "definition": "Difficulté à prévoir, dans un état émotionnel ou physiologique donné, comment on se comportera dans un état différent.",
+    "example": "On fait les courses le ventre vide et on achète deux fois trop.",
+    "mechanism": "Projection de l'état présent sur l'état futur (biais de projection)",
+    "robustness_note": "Convergence de travaux sur la faim, la douleur, la fatigue et l'excitation (Loewenstein, 2005).",
+    "countermeasures": "Décider à froid et s'engager à l'avance (listes, règles) ; anticiper ses états futurs."
+   },
+   "en": {
+    "name": "Hot-cold empathy gap",
+    "aka": "",
+    "slug": "hot-cold-empathy-gap",
+    "definition": "The difficulty, when in a given emotional or physical state, of predicting how one will behave in a different state.",
+    "example": "You go grocery shopping on an empty stomach and buy twice as much as you need.",
+    "mechanism": "Projecting the present state onto the future state (projection bias)",
+    "robustness_note": "Converging research on hunger, pain, fatigue and arousal (Loewenstein, 2005).",
+    "countermeasures": "Decide in a calm state and commit in advance (lists, rules); anticipate your future states."
+   }
+  },
+  {
+   "id": "B099",
+   "n": 99,
+   "process": "P7",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C3",
+    "strategy": "C3a",
+    "listed": false
+   },
+   "doi": "10.1207/s15516709cog2605_1",
+   "reference": "Rozenblit, L., &amp; Keil, F. (2002). The misunderstood limits of folk science: An illusion of explanatory depth. <i>Cognitive Science</i>, <i>26</i>(5), 521–562.",
+   "related": [
+    "B093",
+    "B036",
+    "B019"
+   ],
+   "fr": {
+    "name": "Illusion de profondeur explicative",
+    "slug": "illusion-de-profondeur-explicative",
+    "definition": "Tendance à croire qu'on comprend le fonctionnement d'un objet ou d'un phénomène bien mieux qu'on ne le comprend réellement.",
+    "example": "On est sûr de savoir comment fonctionne une fermeture éclair, jusqu'à devoir l'expliquer étape par étape.",
+    "mechanism": "Confusion entre familiarité et compréhension ; savoir distribué",
+    "robustness_note": "Effet retrouvé pour les objets et pour les politiques publiques (Fernbach et al., 2013).",
+    "countermeasures": "Expliquer à voix haute, étape par étape (technique Feynman) ; écrire le mécanisme."
+   },
+   "en": {
+    "name": "Illusion of explanatory depth",
+    "aka": "",
+    "slug": "illusion-of-explanatory-depth",
+    "definition": "The tendency to believe one understands how an object or phenomenon works far better than one actually does.",
+    "example": "You are sure you know how a zip works — until you have to explain it step by step.",
+    "mechanism": "Confusing familiarity with understanding; distributed knowledge",
+    "robustness_note": "Found for objects and for public policies (Fernbach et al., 2013).",
+    "countermeasures": "Explain out loud, step by step (Feynman technique); write the mechanism down."
+   }
+  },
+  {
+   "id": "B100",
+   "n": 100,
+   "process": "P7",
+   "robustness": "fragile",
+   "benson": {
+    "problem": "C2",
+    "strategy": "C2b",
+    "listed": true
+   },
+   "doi": "10.1037/0022-3514.81.1.33",
+   "reference": "Monin, B., &amp; Miller, D. T. (2001). Moral credentials and the expression of prejudice. <i>Journal of Personality and Social Psychology</i>, <i>81</i>(1), 33–43.",
+   "related": [
+    "B055",
+    "B096",
+    "B094"
+   ],
+   "fr": {
+    "name": "Licence morale",
+    "slug": "licence-morale",
+    "definition": "Tendance, après un comportement vertueux, à s'autoriser un comportement moins éthique.",
+    "example": "Après une semaine d'achats responsables, on s'accorde un vol low-cost sans scrupule.",
+    "mechanism": "Comptabilité morale de l'image de soi",
+    "robustness_note": "Méta-analyse de Blanken et al. (2015) : effet faible et gonflé par les biais de publication ; plusieurs tentatives de réplication directe ont échoué (Blanken et al., 2014).",
+    "countermeasures": "Juger chaque acte pour lui-même ; s'appuyer sur ses valeurs plutôt que sur un « solde » moral."
+   },
+   "en": {
+    "name": "Moral licensing",
+    "aka": "",
+    "slug": "moral-licensing",
+    "definition": "The tendency, after behaving virtuously, to allow oneself less ethical behaviour.",
+    "example": "After a week of responsible shopping, you treat yourself to a low-cost flight without a second thought.",
+    "mechanism": "Moral bookkeeping of one's self-image",
+    "robustness_note": "Meta-analysis by Blanken et al. (2015): a small effect inflated by publication bias; several direct replication attempts failed (Blanken et al., 2014).",
+    "countermeasures": "Judge each act on its own merits; rely on your values rather than a moral 'balance'."
+   }
+  },
+  {
+   "id": "B101",
+   "n": 101,
+   "process": "P7",
+   "robustness": "replicated",
+   "benson": {
+    "problem": "C1",
+    "strategy": "C1e",
+    "listed": true
+   },
+   "doi": "10.1177/0146167202286008",
+   "reference": "Pronin, E., Lin, D. Y., &amp; Ross, L. (2002). The bias blind spot: Perceptions of bias in self versus others. <i>Personality and Social Psychology Bulletin</i>, <i>28</i>(3), 369–381.",
+   "related": [
+    "B083",
+    "B092",
+    "B060"
+   ],
+   "fr": {
+    "name": "Angle mort des biais",
+    "slug": "angle-mort-des-biais",
+    "definition": "Tendance à repérer les biais chez les autres tout en se croyant soi-même moins biaisé.",
+    "example": "Après avoir lu ces 100 fiches, on pense surtout… à ses collègues.",
+    "mechanism": "Introspection jugée fiable pour soi, comportement observé pour autrui",
+    "robustness_note": "Effet retrouvé et non atténué par les capacités cognitives (West et al., 2012 ; Scopelliti et al., 2015).",
+    "countermeasures": "Se fier aux procédures plutôt qu'à l'introspection ; demander un regard extérieur ; reprendre la liste depuis la fiche n° 1."
+   },
+   "en": {
+    "name": "Bias blind spot",
+    "aka": "",
+    "slug": "bias-blind-spot",
+    "definition": "The tendency to spot biases in others while believing oneself to be less biased.",
+    "example": "After reading these 100 entries, you mostly think… of your colleagues.",
+    "mechanism": "Introspection trusted for oneself, observed behaviour used for others",
+    "robustness_note": "The effect has been found and is not reduced by cognitive ability (West et al., 2012; Scopelliti et al., 2015).",
+    "countermeasures": "Trust procedures rather than introspection; ask for an outside view; go back to entry no. 1."
+   }
+  }
+ ]
+};
