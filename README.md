@@ -1,7 +1,7 @@
 # CogniBias
 
-101 cognitive biases, organised by psychological process — bilingual French / English.
-101 biais cognitifs classés par processus psychologique — site bilingue français / anglais.
+101 cognitive biases — bilingual French / English.
+101 biais cognitifs — site bilingue français / anglais.
 
 ## Structure
 

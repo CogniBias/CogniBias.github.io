@@ -6,8 +6,7 @@
   var I18N = {
     fr: {
       htmlTitle: "CogniBias · 101 biais cognitifs",
-      heading: "Les biais qui façonnent nos jugements, classés par processus psychologique.",
-      intro: "Chaque fiche donne une définition, un exemple du quotidien, l'étude qui a fait connaître le biais et l'état des preuves aujourd'hui : répliqué, débattu ou fragile.",
+      heading: "Les biais qui façonnent nos jugements.",
       fProcess: "Processus", fRob: "Robustesse", fBenson: "Codex Benson", searchLabel: "Recherche",
       search: "Nom ou mot-clé…", all: "Tous", allRob: "Toutes",
       rob: { replicated: "Répliqué", debated: "Débattu", fragile: "Fragile" },
@@ -20,14 +19,11 @@
       mechanism: "Mécanisme", codex: "Codex Benson", definition: "Définition", example: "Exemple",
       reference: "Étude fondatrice", robustness: "Robustesse des preuves", counter: "Parades", related: "Biais voisins",
       otherName: "En anglais : ", aka: "aussi", proposed: "rattachement proposé, absent de la liste de Benson",
-      footer1: "Références au format APA 7. La robustesse résume l'état des réplications et méta-analyses connues ; elle n'est pas un verdict définitif.",
-      footer2: "Répliqué : effet retrouvé de façon répétée. Débattu : ampleur ou interprétation contestées. Fragile : échecs de réplication ou preuves très minces.",
       langLabel: "Langue"
     },
     en: {
       htmlTitle: "CogniBias · 101 cognitive biases",
-      heading: "The biases that shape our judgements, organised by psychological process.",
-      intro: "Each entry gives a definition, an everyday example, the study that put the bias on the map and where the evidence stands today: replicated, debated or fragile.",
+      heading: "The biases that shape our judgements.",
       fProcess: "Process", fRob: "Robustness", fBenson: "Benson codex", searchLabel: "Search",
       search: "Name or keyword…", all: "All", allRob: "All",
       rob: { replicated: "Replicated", debated: "Debated", fragile: "Fragile" },
@@ -40,8 +36,6 @@
       mechanism: "Mechanism", codex: "Benson codex", definition: "Definition", example: "Example",
       reference: "Founding study", robustness: "Strength of evidence", counter: "Countermeasures", related: "Related biases",
       otherName: "In French: ", aka: "also", proposed: "proposed mapping, not in Benson's list",
-      footer1: "References in APA 7 style. Robustness summarises known replications and meta-analyses; it is not a final verdict.",
-      footer2: "Replicated: effect found repeatedly. Debated: size or interpretation disputed. Fragile: failed replications or very thin evidence.",
       langLabel: "Language"
     }
   };

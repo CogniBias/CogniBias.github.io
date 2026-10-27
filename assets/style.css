@@ -77,7 +77,6 @@ a { color: var(--ink); text-decoration-color: color-mix(in srgb, var(--ink) 35%,
 .logo { width: clamp(150px, 22vw, 220px); height: auto; aspect-ratio: 1; max-width: 100%; border-radius: 50%; box-shadow: var(--shadow-lg); }
 .hero h1 { margin: 22px 0 0; font: 600 clamp(2.2rem, 5vw, 3.2rem)/1 var(--f-display); font-variation-settings: "SOFT" 100, "opsz" 144; letter-spacing: -.02em; }
 .baseline { margin: 14px 0 0; font: 400 clamp(1.25rem, 2.6vw, 1.7rem)/1.3 var(--f-display); font-variation-settings: "SOFT" 100, "opsz" 72; font-style: italic; max-width: 34ch; text-wrap: balance; }
-.intro { margin: 14px 0 0; color: var(--muted); max-width: 62ch; text-wrap: pretty; }
 .tally { margin-top: 20px; display: grid; gap: 8px; width: min(420px, 100%); }
 .tally .bar { display: flex; height: 8px; border-radius: 999px; overflow: hidden; gap: 2px; }
 .tally .bar span { display: block; height: 100%; opacity: .85; }
@@ -166,9 +165,6 @@ main { padding-bottom: 64px; }
 .card p { margin: 0; font-size: .89rem; line-height: 1.5; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .empty { padding: 32px 0; color: var(--muted); font-style: italic; }
 
-footer { border-top: 1px solid var(--line); padding-block: 26px 40px; color: var(--muted); font-size: .88rem; }
-footer .wrap { display: grid; gap: 6px; }
-footer p { margin: 0; max-width: 80ch; }
 
 @media (max-width: 860px) {
   .filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
